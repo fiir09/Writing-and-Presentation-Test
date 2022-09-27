@@ -10,6 +10,7 @@
   <div align = "justify">Filesystem Structure adalah suatu struktur yang digunakan untuk mengatur bagaimana sebuah data disimpan dalam sebuah system. Pada system operasi Windows dan Unix-like, digunakan struktur yang bentuknya mirip sebuah tree untuk Menyusun file dan directory. Contoh dari filesystem structure adalah sebagai berikut:
   
     ![filesystem structure](https://user-images.githubusercontent.com/114342288/192628039-bba409d3-9892-4fc2-9763-ece0f79276d9.jpg)
+    ![filesystem structure](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2001%20-%20Unix%20Command%20Line/filesystem%20structure.jpg)
     
   <div align = "justify">Directory yang terletak pada bagian paling atas atau paling pertama dari struktur di atas disebut dengan root directory.
     

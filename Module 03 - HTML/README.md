@@ -5,13 +5,13 @@ HTML (Hypertext Markup Language) adalah sebuah bahasa komputer yang digunakan un
 
 ## Tools HTML
 Tools utama yang harus dipersiapkan sebelum membuat HTML adalah Browser dan Code Editor.
-- Browser
+- **Browser**
 
   Browser adalah software yang digunakan untuk menerima dan menyajikan sumber informasi. Browser akan membaca dokumen HTML sesuai dengan tag-tag HTML yang terdapat       dalam dokumen tersebut.
   
   Contoh browser adalah Google Chrome dan Firefox.
 
-- Code Editor
+- **Code Editor**
 
   Code editor adalah text editor yang dikhususkan untuk menulis kode-kode dari perangkat lunak yang dikembangkan. 
   
@@ -28,7 +28,7 @@ Meskipun banyak tag HTML yang berpasangan (terdiri dari tag pembuka dan tag penu
 
 **Contoh Tag HTML:**
 
-- Tag untuk membuat heading
+- **Tag untuk membuat heading**
 
   Heading adalah judul yang biasanya diberikan di sebuah halaman. Di HTML, terdapat 6 tag heading sesuai dengan tingkatannya. Tag `<h1>` untuk heading yang paling     besar dan `<h6>` untuk heading yang paling kecil.
 
@@ -46,7 +46,7 @@ Meskipun banyak tag HTML yang berpasangan (terdiri dari tag pembuka dan tag penu
 
   ![tag heading](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/tag%20heading.jpg)
 
-- Tag untuk membuat paragraf
+- **Tag untuk membuat paragraf**
 
   Di HTML, untuk membuat suatu paragraph dapat menggunakan tag `<p>`.
 
@@ -60,7 +60,7 @@ Meskipun banyak tag HTML yang berpasangan (terdiri dari tag pembuka dan tag penu
 
   ![tag paragraf](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/tag%20paragraf.jpg)
 
-- Tag untuk membuat teks tebal
+- **Tag untuk membuat teks tebal**
 
   Untuk membuat teks menjadi tebal, dapat menggunakan tag `<b>` atau `<strong>`.
 
@@ -74,7 +74,7 @@ Meskipun banyak tag HTML yang berpasangan (terdiri dari tag pembuka dan tag penu
   
   ![teks tebal](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/teks%20tebal.jpg)
 
-- Tag untuk membuat teks miring
+- **Tag untuk membuat teks miring**
 
   Jika ingin membuat teks menjadi miring, maka dapat menggunakan tag `<i>` atau `<em>`.
 
@@ -88,7 +88,8 @@ Meskipun banyak tag HTML yang berpasangan (terdiri dari tag pembuka dan tag penu
   
   ![teks miring](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/teks%20miring.jpg)
 
-- Tag untuk membuat daftar/list
+- **Tag untuk membuat daftar/list**
+
   Terdapat 2 tipe list dalam HTML, yaitu:
   - Unordered List, menggunakan tag `<ul>`
   - Ordered List, menggunakan tag `<ol>`
@@ -119,10 +120,35 @@ Meskipun banyak tag HTML yang berpasangan (terdiri dari tag pembuka dan tag penu
   
   ![Ordered List](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/Ordered%20List.jpg)
   
-- Tag untuk membuat link
-- Tag untuk menampilkan gambar
-- Tag untuk menampilkan video
-- Tag untuk menampilkan audio
+- **Tag untuk membuat link**
+- 
+  Untuk membuat link pada halaman web, maka dibutuhkan tag `<a>`. Tag `<a>` memiliki attribute `href` yang digunakan untuk menyimpan link website yang akan dituju.
+  
+  Contoh:
+  ```
+  <a href = “https://www.google.com/”>Google</a>
+  ```
+  
+  Tampilan di browser:
+  
+  ![link](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/link.jpg)
+  
+  Saat “Google” diklik, maka akan menuju halaman awal Google.
+  
+- **Tag untuk menampilkan gambar**
+  Untuk menampilkan gambar pada halaman website, maka dapat menggunakan tag `<img>`. Tag img memiliki attribute `src`.
+  
+  Selain `src`, kita juga dapat menambahkan attribute `alt` pada tag `<img>`. Atrribute `alt` berguna untuk memberikan informasi alternatif atas gambar jika user    tidak dapat melihat gambar tersebut baik dikarenakan koneksi yang buruk maupun alasan lainnya. 
+  
+  Contoh:
+  ```
+  <img src="https://img.freepik.com/free-vector/realistic-ice-cream-collection_52683-64217.jpg?w=996&t=st=1664316472~exp=1664317072~hmac=d96c75b628a13f9dcbfa00a487a0d9b3a64b7f4d0450c66e4575df32551959e8" alt="Ice Cream">
+  ```
+  
+  Tampilan di browser:
+  
+  ![image](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/image.jpg)
+  
 
 ## Struktur HTML
 Dokumen HTML memiliki 3 tag utama, yaitu `<html>`, `<head>’, dan `<body>`. Ketiga tag tersebut kemudian akan membentuk struktur HTML seperti pada gambar berikut:

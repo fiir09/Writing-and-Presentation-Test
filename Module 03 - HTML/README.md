@@ -88,7 +88,37 @@ Meskipun banyak tag HTML yang berpasangan (terdiri dari tag pembuka dan tag penu
   
   ![teks miring](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/teks%20miring.jpg)
 
-- Tag untuk membuat daftar/lis
+- Tag untuk membuat daftar/list
+  Terdapat 2 tipe list dalam HTML, yaitu:
+  - Unordered List, menggunakan tag `<ul>`
+  - Ordered List, menggunakan tag `<ol>`
+  
+  Kedua tag tersebut memiliki elemen `<li>` untuk mendefinisikan nilai-nilai dari list tersebut.
+  
+  Contoh Unordered List:
+  ```
+  <ul>
+	  <li>Unordered List 1</li>
+	  <li>Unorderes List 2</li>
+	  <li>Unordered List 3</li>
+  </ul>
+  ```
+  Tampilan di browser:
+  
+  ![Unordered List](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/Unordered%20List.jpg)
+  
+  Contoh Ordered List:
+  ```
+  <ol>
+	  <li>Ordered List 1</li>
+	  <li>Ordered List 2</li>
+	  <li>Ordered List 3</li>
+  </ol>
+  ```
+  Tampilan di browser:
+  
+  ![Ordered List](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/Ordered%20List.jpg)
+  
 - Tag untuk membuat link
 - Tag untuk menampilkan gambar
 - Tag untuk menampilkan video

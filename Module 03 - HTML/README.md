@@ -30,56 +30,58 @@ Meskipun banyak tag HTML yang berpasangan (terdiri dari tag pembuka dan tag penu
 
 - Tag untuk membuat heading
 
-Heading adalah judul yang biasanya diberikan di sebuah halaman. Di HTML, terdapat 6 tag heading sesuai dengan tingkatannya. Tag `<h1>` untuk heading yang paling besar dan `<h6>` untuk heading yang paling kecil.
+  Heading adalah judul yang biasanya diberikan di sebuah halaman. Di HTML, terdapat 6 tag heading sesuai dengan tingkatannya. Tag `<h1>` untuk heading yang paling     besar dan `<h6>` untuk heading yang paling kecil.
 
-Contoh:
-```
-<h1>Hello World</h1>
-<h2>Hello World</h2>
-<h3>Hello World</h3>
-<h4>Hello World</h4>
-<h5>Hello World</h5>
-<h6>Hello World</h6>
-```
+  Contoh:
+  ```
+  <h1>Hello World</h1>
+  <h2>Hello World</h2>
+  <h3>Hello World</h3>
+  <h4>Hello World</h4>
+  <h5>Hello World</h5>
+  <h6>Hello World</h6>
+  ```
 
-Tampilan di browser:
-**image**
+  Tampilan di browser:
+
+  ![tag heading](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/tag%20heading.jpg)
 
 - Tag untuk membuat paragraf
 
-Di HTML, untuk membuat suatu paragraph dapat menggunakan tag `<p>`.
+  Di HTML, untuk membuat suatu paragraph dapat menggunakan tag `<p>`.
 
-Contoh:
-```
-<p>Selamat Pagi</p>
-<p>Selamat siang</p>
-```
+  Contoh:
+  ```
+  <p>Selamat Pagi</p>
+  <p>Selamat siang</p>
+  ```
 
-Tampilan di browser:
-**image**
+  Tampilan di browser:
+
+  ![tag paragraf](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/tag%20paragraf.jpg)
 
 - Tag untuk membuat teks tebal
 
-Untuk membuat teks menjadi tebal, dapat menggunakan tag `<b>` atau `<strong>`.
+  Untuk membuat teks menjadi tebal, dapat menggunakan tag `<b>` atau `<strong>`.
 
-Contoh:
-```
-<b>huruf tebal</b>
-<strong>ini juga tebal</strong>
-```
+  Contoh:
+  ```
+  <b>huruf tebal</b>
+  <strong>ini juga tebal</strong>
+  ```
 
-Tampilan di browser:
-**image**
+  Tampilan di browser:
+  **image**
 
 - Tag untuk membuat teks miring
 
-Jika ingin membuat teks menjadi miring, maka dapat menggunakan tag `<i>` atau `<em>`.
+  Jika ingin membuat teks menjadi miring, maka dapat menggunakan tag `<i>` atau `<em>`.
 
-Contoh:
-```
-<i>huruf miring</i>
-<em>ini juga miring</em>
-```
+  Contoh:
+  ```
+  <i>huruf miring</i>
+  <em>ini juga miring</em>
+  ```
 
 - Tag untuk membuat daftar/lis
 - Tag untuk membuat link
@@ -88,7 +90,23 @@ Contoh:
 - Tag untuk menampilkan audio
 
 ## Struktur HTML
+Dokumen HTML memiliki 3 tag utama, yaitu `<html>`, `<head>’, dan `<body>`. Ketiga tag tersebut kemudian akan membentuk struktur HTML seperti pada gambar berikut:
+
+![struktur HTML](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/struktur%20HTML.jpg)
+
+Penjelasan:
+
+-	`<!DOCTYPE>`, merupakan syntax yang mendefinisikan versi dari HTML yang digunakan dan harus dideklarasikan sebelum tag `<html>`
+- `<html>`, adalah root elemen dari halaman HTML. Seluruh HTML tag lainnya harus dibungkus oleh tag ini
+-	`<head>`, tag ini pada umumnya berisi tag `<meta>`, `<title>`, konten CSS/JavaScript internal maupun link yang menghubungkan dengan CSS/JavaScript eksternal
+-	`<body>`, tag ini berisi konten website yang ingin ditampilkan pada browser 
 
 ## HTML Sematic
+HTML Sematic adalah elemen-elemen HTML yang menyatakan makna atau tujuan dari elemen itu sendiri. HTML sematic digunakan agar kode HTML dapat lebih mudah dibaca dan dipahami.
+
+Contoh elemen-elemen HTML sematic adalah:
+`<article>`, `<footer>`, `<header>`, `<nav>`
+
 
 ## Deploy HTML
+Deploy adalah sebuah proses untuk menyebarkan aplikasi yang telah dikerjakan agar dapat digunakan oleh banyak orang. Untuk file HTML, maka perlu mendeploy file tersebut ke server. Agar dapat melakukan proses deploy HTML, maka kita dapat menggunakan Netlify yang dapat diakses melalui netlify.com. 

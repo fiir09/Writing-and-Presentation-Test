@@ -48,3 +48,5 @@
     
     - Git clone
       <div align = "justify">Untuk membuat cloning dari GitHub dan menyimpannya ke local (computer), maka dapat menggunakan command “git clone”.
+        
+       ![git clone](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2002%20-%20Git%20%26%20GitHub%20Dasar/git%20clone.jpg)

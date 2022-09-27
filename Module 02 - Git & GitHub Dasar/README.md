@@ -34,6 +34,8 @@
 
     - Repository Git
       <div align = "justify">Repository adalah directory project yang kita buat. Untuk membuat repository baru, maka dapat menggunakan command “git init”.
+      
+      ![git init](https://user-images.githubusercontent.com/114342288/192630232-55d2158d-8704-4dd2-9d1f-7f1c09f76743.jpg)
     
     - Git Commit
        <div align = "justify">Commit adalah kondisi dimana revisi telah disimpan pada version control. Untuk menyimpan perubahan pada version control, maka dapat          menggunakan command “git 

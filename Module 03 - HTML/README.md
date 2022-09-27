@@ -164,10 +164,36 @@ Penjelasan:
 
 ## HTML Sematic
 HTML Sematic adalah elemen-elemen HTML yang menyatakan makna atau tujuan dari elemen itu sendiri. HTML sematic digunakan agar kode HTML dapat lebih mudah dibaca dan dipahami.
+	
+Salah satu keuntungan menggunakan HTML sematic adalah dokumen HTML menjadi lebih mudah dibaca, baik oleh manusia maupun mesin. Perhatikan contoh berikut:
 
-Contoh elemen-elemen HTML sematic adalah:
-`<article>`, `<footer>`, `<header>`, `<nav>`
+```
+<div id = “header”></div>
+<div class = “section”>
+	<div class = “article”>
+		<div class = “figure”>
+			<img>
+			<div class = “figcaption”></div>
+		</div>
+	</div>
+</div>
+<div id = “footer”>
+```
 
+Contoh di atas adalah layout yang dibuat dengan menggunakan tag `<div>`. Semakin banyak elemen `<div>` yang dimiliki, maka akan menimbulkan kebingungan dalam membacanya. Oleh karena itu, digunakan HTML sematic sehingga layout tersebut akan lebih mudah dibaca. Contoh dengan HTML Sematic:
+	
+```
+<header></header>
+<section>
+	<article>
+		<figure>
+			<img>
+			<figcaption></figcaption>
+		</figure>
+	</article>
+</section>
+<footer></footer>
+```
 
 ## Deploy HTML
 Deploy adalah sebuah proses untuk menyebarkan aplikasi yang telah dikerjakan agar dapat digunakan oleh banyak orang. Untuk file HTML, maka perlu mendeploy file tersebut ke server. Agar dapat melakukan proses deploy HTML, maka kita dapat menggunakan Netlify yang dapat diakses melalui netlify.com. 

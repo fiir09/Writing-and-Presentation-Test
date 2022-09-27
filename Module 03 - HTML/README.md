@@ -60,7 +60,7 @@ Tampilan di browser:
 
 - Tag untuk membuat teks tebal
 
-Untuk membuat teks menjadi tebal, dapat menggunakan tag <b> atau <strong>.
+Untuk membuat teks menjadi tebal, dapat menggunakan tag `<b>` atau `<strong>`.
 
 Contoh:
 ```
@@ -73,7 +73,7 @@ Tampilan di browser:
 
 - Tag untuk membuat teks miring
 
-Jika ingin membuat teks menjadi miring, maka dapat menggunakan tag <i> atau <em>.
+Jika ingin membuat teks menjadi miring, maka dapat menggunakan tag `<i>` atau `<em>`.
 
 Contoh:
 ```
@@ -81,7 +81,11 @@ Contoh:
 <em>ini juga miring</em>
 ```
 
-- Tag order
+- Tag untuk membuat daftar/lis
+- Tag untuk membuat link
+- Tag untuk menampilkan gambar
+- Tag untuk menampilkan video
+- Tag untuk menampilkan audio
 
 ## Struktur HTML
 

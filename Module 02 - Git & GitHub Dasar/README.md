@@ -32,7 +32,7 @@
     
 - ## Command di dalam Git & GitHub
 
-    - Repository Git
+    - **Repository Git**
     
       Repository adalah directory project yang kita buat. Untuk membuat repository baru, maka dapat menggunakan command “git init”.
       
@@ -40,7 +40,7 @@
       
       Pada contoh di atas, "coba_gitbash" adalah nama repository baru yang akan dibuat.
     
-    - Git Commit
+    - **Git Commit**
     
       Commit adalah kondisi dimana revisi telah disimpan pada version control. Untuk menyimpan perubahan pada version control, maka dapat          menggunakan command “git 
       commit”.
@@ -49,11 +49,11 @@
          
        Pada contoh di atas, "Commit pertama" adalah pesan checkout.
     
-    - Git push origin
+    - **Git push origin**
     
       Untuk mengunggah atau mempublish ke remote repository atau GitHub, maka dapat menggunakan command “git push origin”.
     
-    - Git clone
+    - **Git clone**
     
       Untuk membuat cloning dari GitHub dan menyimpannya ke local (computer), maka dapat menggunakan command “git clone”.
         

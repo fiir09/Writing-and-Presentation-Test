@@ -71,7 +71,8 @@ Meskipun banyak tag HTML yang berpasangan (terdiri dari tag pembuka dan tag penu
   ```
 
   Tampilan di browser:
-  **image**
+  
+  ![teks tebal](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/teks%20tebal.jpg)
 
 - Tag untuk membuat teks miring
 
@@ -82,6 +83,10 @@ Meskipun banyak tag HTML yang berpasangan (terdiri dari tag pembuka dan tag penu
   <i>huruf miring</i>
   <em>ini juga miring</em>
   ```
+  
+  Tampilan di browser:
+  
+  ![teks miring](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/teks%20miring.jpg)
 
 - Tag untuk membuat daftar/lis
 - Tag untuk membuat link

@@ -37,11 +37,76 @@ Algoritma dapat ditulis dengan berbagai cara, yaitu:
 
   Penulisan algoritma secara deskripsi mirip dengan saat kita menulis tutorial dengan bahasa sehari-hari.
   
+  Contoh:
+  
+  ```
+  Hasil Ujian
+    
+    1. Mulai
+    2. Terdapat nilai n
+    3. Apakah n >= 85?
+    4. Jika ya, beri output "A"
+    5. Jika tidak, apakah n >= 75?
+    6. Jika ya, beri output "B"
+    7. Jika tidak, apakah n >= 65?
+    8. Jika ya, beri output "C"
+    9. Jika tidak, beri output "D"
+    10. Selesai
+  ```
+  
 - **Flowchart**
 
   Penulisan algoritma dengan menggunakan flowchart atau diagram alir lebih mudah dibaca karena memiliki tampilan visual.
   
+  Contoh:
+  
+  ![Contoh flowchart](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2005%20-%20Algoritma/Contoh%20flowchart.png)
+  
 - **Pseudo Code**
 
   Pseudo code adalah penulisan algoritma yang umumnya menggunakan bahasa inggris. Penulisan ini hampir mirip dengan penulisan pada kode pemrograman.
+  
+  Umumnya pseudo code memiliki 3 bagian, yaitu:
+  
+  - **Judul**, penjelasan dari algoritma yang dibuat
+  - **Deklarasi**, mendefinisikan semua nama (variabel) yang akan digunakan
+  - **Deskripsi**, berisi langkah-langkah penyelesaian masalah
 
+  Namun sebenarnya tidak ada aturan baku mengenai cara penulisan pseudo code asal jelas, simple, konsisten, dan mudah dibaca orang lain.
+  
+  Contoh:
+  ```
+  Hasil Ujian
+  
+  Deklarasi
+  
+    n (integer)
+  
+  Deskripsi
+    if n >= 85
+      cetak "A"
+    else if n >= 75
+      cetak "B"
+    else if n >= 65
+      cetak "C"
+    else
+      cetak "D"
+    ```
+    
+ - **Jenis Pseudo Code**
+    
+      - **Procedural**
+
+        Procedural adalah cara berpikir secara runtun. Artinya serangkaian perintah yang berurutan.
+      
+      - **Conditional**
+
+        Conditional digunakan saat dibutuhkan percabangan khusus dimana kommputer akan melakukan suatu tindakan ketika suatu kondisi terpenuhi.
+      
+      - **Looping**
+
+        Komputer dapat melakukan sebuah proses secara berulang. Jika membutuhkan perulangan dalam kasusu tertentu, maka dapat menggunakan looping.
+      
+      - **Recursive**
+
+        Recursive adalah pola pikir dalam algoritma yang memanggil method/function di dalam sebuah function.

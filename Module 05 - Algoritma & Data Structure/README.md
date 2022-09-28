@@ -60,7 +60,7 @@ Algoritma dapat ditulis dengan berbagai cara, yaitu:
   
   Contoh:
   
-  ![Contoh flowchart](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2005%20-%20Algoritma/Contoh%20flowchart.png)
+  ![Contoh flowchart](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2005%20-%20Algoritma%20%26%20Data%20Structure/Contoh%20flowchart.png)
   
 - **Pseudo Code**
 

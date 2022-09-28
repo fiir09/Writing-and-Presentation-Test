@@ -1,7 +1,7 @@
 # CSS
 
 ## Definisi
-CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mendesain halaman website. Seperti pada HTML, web browser akan membaca dokumen HTML. Jika pada dokumen HTML tersebut terdapat konten CSS, maka browser akan memproses CSS tersebut dan menampilkan design yang sesuai denga napa yang telah ditentukan.
+CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mendesain halaman website. Seperti pada HTML, web browser akan membaca dokumen HTML. Jika pada dokumen HTML tersebut terdapat konten CSS, maka browser akan memproses CSS tersebut dan menampilkan design yang sesuai dengan apa yang telah ditentukan.
 
 Pada suatu website, CSS berfungsi sebagai baju yang memberi style seperti warna dan layout sehingga halaman website menjadi lebih indah dan rapi.
 
@@ -49,7 +49,7 @@ Agar CSS dapat terbaca oleh browser, maka CSS harus disisipkan ke dalam dokumen 
   
 - Eksternal CSS
 
-  Pada eksternal CSS, kode CSS disisipkan dengan membuat file CSS terpisah terlebih dahulu kemudian menggabungkan file CSS tersebut dengan file HTML dengan menggunakan elemen `<link>’. Elemen `<link>` tersebut diletakkan di dalam `<head>`.
+  Pada eksternal CSS, kode CSS disisipkan dengan membuat file CSS terpisah terlebih dahulu kemudian menggabungkan file CSS tersebut dengan file HTML dengan menggunakan elemen `<link>`. Elemen `<link>` tersebut diletakkan di dalam `<head>`.
   
   Contoh:
   

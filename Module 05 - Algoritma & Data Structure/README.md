@@ -1,4 +1,4 @@
-# Algoritma & Data Strukture
+# Algoritma & Data Structure
 
 ## Algoritma
 

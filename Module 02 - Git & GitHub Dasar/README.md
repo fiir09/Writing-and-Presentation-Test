@@ -20,7 +20,7 @@
     Open sourced licensed | Terdapat pilihan pengguna gratis dan berbayar
     
 - ## Alur Kerja Git & GitHub
-    (image)
+    
     Cara kerja Git melibatkan beberapa file project yang tersimpan di directory project. File yang tersimpan tersebut akan diperbarui dan         dipindahkan ke         staging area. Setelah peninjauan, file kode dimuat ke Git Repository.
       
    File yang telah melewati pembaruan dan peninjauan tadi lantas melewati proses commit. Proses commit tersebut nantinya akan memberi           perintah pada Git      untuk merekam profil data atau kode hingga pembuatan kode.

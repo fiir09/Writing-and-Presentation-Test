@@ -105,3 +105,105 @@ Agar CSS dapat terbaca oleh browser, maka CSS harus disisipkan ke dalam dokumen 
 ## Responsive Web Design
 
 ## Flexbox
+   Flexbox (flexible box) adalah cara untuk mengatur layout. Flexbox memudahkan untuk mengatur layout, posisi, dan ukuran dari setiap elemen di dalamnya.
+  
+   Terdapat 2 istilah penting pada flexbox, yaitu:
+  
+    - Container, merupakan elemen yang membungkus dan mengatur tampilan dari elemen di dalamnya
+  
+    - Item, merupakan elemen di dalam container yang diatur tampilannya
+  
+   Pada konsepnya, flexbox memiliki 1 kontainer dan pada container tersebut dapat memiliki beberapa (lebih dari 1) item.
+  
+  #### Properti Flex pada Container
+  
+  - **Display**
+    Langkah pertama untuk membuat sebuah container menjadi flex adalah dengan menambahkan `flex` pada property `display`. Dengan menambahkan `flex`, maka container yang kita miliki akan dapat menggunakan property flex.
+
+    ```
+    .container{
+      display: flex;
+    }
+    ```
+  
+  - **flex-direction**
+  
+    Property flex-direction digunakan untuk mengatur letak dan menentukkan arah dari item child. Pada flex-direction, terdapat 4 value yang dapat diberikan, yaitu:
+  
+    - row (default)
+  
+      Secara default, letak item child membentuk sebuah baris dari kiri ke kanan.
+  
+      Contoh:
+  
+      ```
+      Style.css
+       .container{
+          border: 5px solid aliceblue;
+          display: flex;
+          flex-direction: row;
+       }
+
+        .item{
+            border: 5px solid aliceblue;
+            flex-basis: 100%;
+            background: blueviolet;
+            font-size: 60px;
+            color: white;
+            text-align: center;
+        }
+      ```
+  
+      ```
+      Index.html
+      ...
+      <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+      </div>
+      ```
+      
+      Tampilan di browser:
+  
+      ![flex-direction-row](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/flex-direction-row.jpg)
+      
+    - row-reverse
+  
+      Dengan row-reverse, letak item child akan membentuk sebuah baris dari kanan ke kiri.
+  
+      ![flex-direction-row-reverse](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/flex-direction-row-reverse.jpg)
+  
+    - colomn
+  
+      Dengan colomn, letak item child membentuk sebuah baris dari atas ke bawah.
+       
+      ![flex-direction-colomn](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/flex-direction-colomn.jpg)
+  
+    - colomn-reverse
+      Dengan colomn-reverse, letak item child membentuk sebuah garis dari bawah ke atas.
+  
+      ![flex-direction-colomn-reverse](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/flex-direction-colomn-reverse.jpg)
+  
+  - **flex-wrap**
+  
+    Secara default, flex akan membuat layout item child dalam 1 baris saja dengan menyesuaikan space yang ada. Namun, jika ingin membatasi jumlah item child dalam 1 baris lalu item child lain akan berpindah ke posisi baris yang baru, maka dapat menggunakan `flex-wrap`.
+  
+    Property yang dapat digunakan pada `flex-wrap`, yaitu:
+  
+    - no-wrap (default)
+  
+      Secara default, flex tidak menggunakan flex-wrap.
+  
+    - wrap
+  
+      Dengan property `wrap`, flex item akan memiliki beberapa line dari atas ke bawah jika space dalam 1 line telah full width.
+  
+    - wrap-reverse
+  
+      Dengan property `wrap-reverse`, flex item akan memiliki beberapa line dari bawah ke atas jika space dalam 1 line telah full width.
+  
+
+  - **justify-content**
+  
+  

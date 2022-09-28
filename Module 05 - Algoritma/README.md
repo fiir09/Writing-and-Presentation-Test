@@ -105,7 +105,7 @@ Algoritma dapat ditulis dengan berbagai cara, yaitu:
       
       - **Looping**
 
-        Komputer dapat melakukan sebuah proses secara berulang. Jika membutuhkan perulangan dalam kasusu tertentu, maka dapat menggunakan looping.
+        Komputer dapat melakukan sebuah proses secara berulang. Jika membutuhkan perulangan dalam kasus tertentu, maka dapat menggunakan looping.
       
       - **Recursive**
 

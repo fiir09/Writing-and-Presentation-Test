@@ -152,7 +152,7 @@ Meskipun banyak tag HTML yang berpasangan (terdiri dari tag pembuka dan tag penu
   
 
 ## Struktur HTML
-Dokumen HTML memiliki 3 tag utama, yaitu `<html>`, `<head>’, dan `<body>`. Ketiga tag tersebut kemudian akan membentuk struktur HTML seperti pada gambar berikut:
+Dokumen HTML memiliki 3 tag utama, yaitu `<html>`, `<head>`, dan `<body>`. Ketiga tag tersebut kemudian akan membentuk struktur HTML seperti pada gambar berikut:
 
 ![struktur HTML](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/struktur%20HTML.jpg)
 

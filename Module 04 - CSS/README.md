@@ -78,7 +78,27 @@ Agar CSS dapat terbaca oleh browser, maka CSS harus disisipkan ke dalam dokumen 
   Tampilan di browser:
   
   ![eksternal CSS](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/eksternal%20CSS.jpg)
+  
 ## Syntax Dasar CSS
+   Syntax CSS digunakan untuk menunjuk atau memilih elemen HTML mana yang ingin diberi style. Syntax CSS terdiri dari selector, property, dan value seperti berikut:
+  
+   ```
+   Selector{
+    Property: value;
+   }
+   ```
+  
+   Contoh:
+  
+   ```
+   h1{
+    color: blueviolet;
+   }
+   ```
+    
+   Pada contoh di atas, `h1` adalah selector, `color` adalah property, dan `blueviolet` adalah value.
+  
+   Syntax CSS tersebut akan memberikan warna blueviolet untuk setiap konten yang ada di dalam tag `<h1>`.
 
 ## Styling CSS
 

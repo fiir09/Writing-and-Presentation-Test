@@ -121,7 +121,7 @@ Meskipun banyak tag HTML yang berpasangan (terdiri dari tag pembuka dan tag penu
   ![Ordered List](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2003%20-%20HTML/Ordered%20List.jpg)
   
 - **Tag untuk membuat link**
-- 
+
   Untuk membuat link pada halaman web, maka dibutuhkan tag `<a>`. Tag `<a>` memiliki attribute `href` yang digunakan untuk menyimpan link website yang akan dituju.
   
   Contoh:

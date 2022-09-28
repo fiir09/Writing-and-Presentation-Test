@@ -136,7 +136,7 @@ Meskipun banyak tag HTML yang berpasangan (terdiri dari tag pembuka dan tag penu
   Saat “Google” diklik, maka akan menuju halaman awal Google.
   
 - **Tag untuk menampilkan gambar**
-- 
+ 
   Untuk menampilkan gambar pada halaman website, maka dapat menggunakan tag `<img>`. Tag img memiliki attribute `src`.
   
   Selain `src`, kita juga dapat menambahkan attribute `alt` pada tag `<img>`. Atrribute `alt` berguna untuk memberikan informasi alternatif atas gambar jika user    tidak dapat melihat gambar tersebut baik dikarenakan koneksi yang buruk maupun alasan lainnya. 

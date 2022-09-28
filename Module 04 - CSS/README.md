@@ -205,6 +205,7 @@ Agar CSS dapat terbaca oleh browser, maka CSS harus disisipkan ke dalam dokumen 
   #### Properti Flex pada Container
   
   - **Display**
+  
     Langkah pertama untuk membuat sebuah container menjadi flex adalah dengan menambahkan `flex` pada property `display`. Dengan menambahkan `flex`, maka container yang kita miliki akan dapat menggunakan property flex.
 
     ```

@@ -191,19 +191,124 @@ Agar CSS dapat terbaca oleh browser, maka CSS harus disisipkan ke dalam dokumen 
   
     Property yang dapat digunakan pada `flex-wrap`, yaitu:
   
-    - no-wrap (default)
-  
-      Secara default, flex tidak menggunakan flex-wrap.
-  
     - wrap
   
       Dengan property `wrap`, flex item akan memiliki beberapa line dari atas ke bawah jika space dalam 1 line telah full width.
+      
+      Contoh:
+      ```
+      Style.css
+       .container{
+          border: 5px solid aliceblue;
+          display: flex;
+          flex-wrap: wrap;
+       }
+
+        .item{
+            border: 5px solid aliceblue;
+            width: 500px;
+            background: blueviolet;
+            font-size: 60px;
+            color: white;
+            text-align: center;
+        }
+      ```
+  
+      ```
+      Index.html
+      ...
+      <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </div>
+      ```
+  
+      Tampilan di browser:
+  
+      ![flex-wrap-wrap](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/flex-wrap-wrap.jpg)
   
     - wrap-reverse
   
       Dengan property `wrap-reverse`, flex item akan memiliki beberapa line dari bawah ke atas jika space dalam 1 line telah full width.
   
+      ![flex-wrap-wrap-reverse](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/flex-wrap-wrap-reverse.jpg)
+  
+    - nowrap (default)
+  
+      Secara default, flex tidak menggunakan flex-wrap.
+      
+      ![flex-wrap-nowrap](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/flex-wrap-nowrap.png)
+  
 
   - **justify-content**
   
+    Property justify-content digunakan untuk mengatur tata letak dan space antar item child secara horizontal atau main axis.
+  
+    Justify-content memiliki 6 value, yaitu:
+  
+    - flex-start
+  
+      Seluruh item akan ditempatkan di depan.
+  
+      Contoh:
+      ```
+      Style.css
+      .container{
+          border: 5px solid aliceblue;
+          display: flex;
+          justify-content: flex-start;
+      }
+
+      .item{
+          border: 5px solid aliceblue;
+          width: 200px;
+          background: blueviolet;
+          font-size: 60px;
+          color: white;
+          text-align: center;
+      }
+      ```
+  
+      ```
+      Index.html
+      <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+      </div>
+      ```
+  
+      Tampilan di browser:
+  
+      ![justify-content-flex-start](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/justify-content-flex-start.png)
+  
+    - flex-end
+  
+      Seluruh item akan ditempatkan di belakang.
+  
+      ![justify-content-flex-end](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/justify-content-flex-end.png)
+  
+    - center
+  
+      Value ini akan memampatkan item ke bagian tengah.
+  
+      ![justify-content-center](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/justify-content-center.png)
+  
+    - space-between
+  
+      Value ini akan memberikan ruang pada setiap 2 item yang bersebelahan.
+  
+      ![justify-content-space-between](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/justify-content-space-between.png)
+  
+    - space-around
+  
+      Value ini akan memberikan ruang pada setiap item (tidak hanya di setiap 2 item yang bersebelahan saja).
+  
+      ![justify-content-space-around](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/justify-content-space-around.png)
+  
+  
+      
   

@@ -19,10 +19,65 @@ Agar CSS dapat terbaca oleh browser, maka CSS harus disisipkan ke dalam dokumen 
   
   Tampilan di browser:
   
+  ![inline CSS](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/inline%20CSS.jpg)
   
 - Internal CSS
+
+  Pada internal CSS, digunakan elemen `<style>` untuk menyisipkan kode CSS. Elemen `<style>` tersebut diletakkan di dalam `<head>`.
+  
+  Contoh:
+  ```
+  <head>
+     …
+    <style>
+      body{
+        background-color: beige;
+       }
+       h1 {
+        color: rebeccapurple;
+       }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+  </body>
+  ```
+
+  Tampilan di browser:
+  
+  ![internal CSS](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/internal%20CSS.jpg)
+  
 - Eksternal CSS
 
+  Pada eksternal CSS, kode CSS disisipkan dengan membuat file CSS terpisah terlebih dahulu kemudian menggabungkan file CSS tersebut dengan file HTML dengan menggunakan elemen `<link>’. Elemen `<link>` tersebut diletakkan di dalam `<head>`.
+  
+  Contoh:
+  
+  ```
+  Index.html
+  <head>
+    …
+    <link rel="stylesheet" href="style.css">	
+  </head>
+  <body>
+    <h1>Hello World</h1>
+  </body>
+  ```
+
+  ```
+  Style.css
+  body{
+      background-color: aliceblue;
+  }
+
+  h1{
+      color: blueviolet;
+  }
+  ```
+
+  Tampilan di browser:
+  
+  ![eksternal CSS](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2004%20-%20CSS/eksternal%20CSS.jpg)
 ## Syntax Dasar CSS
 
 ## Styling CSS

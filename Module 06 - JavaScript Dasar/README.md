@@ -83,14 +83,94 @@ Tipe data adalah klasifikasi yang diberikan untuk berbagai macam data yang digun
   ```
   
 - **String**
-
+  
+  Tipe data string merupakan deretan karakter seperti huruf, angka, spasi, simbol, dan lainnya yang diapit oleh single quotes ('...') atau double quotes ("...").
+  
+  Contoh:
+  
+  ```
+  let string = "Selamat Pagi";
+  ```
+  
+  Pada contoh di atas "Selamat Pagi" memiliki tipe data string.
   
 - **Boolean**
+
+  Tipe data boolean merupakan nilai kebenaran dari sebuah pernyataan yang dituliskan sebagai `true` atau `false`.
+  
+  Contoh:
+  
+  ```
+  let benar = true;
+  let salah = false;
+  ```
+  
 - **Null**
+
+  Tipe data null adalah tipe data yang diartikan bahwa sebuah variabel/data tidak memiliki nilai. Null berbeda dengan string kosong karena string kosong masih memiliki tipe data yaitu string.
+  
+  Contoh:
+  
+  ```
+  let dataPertama = null;
+  let dataKedua = "";
+  ```
+  
+  Jika contoh di atas ditampilkan, maka hasilnya adalah dataPertama memiliki nilai null dan dataKedua memiliki nilai kosong dengan tipe datanya adalah string.
+  
 - **Undefined**
+
+  Tipe data undefined adalah tipe data yang merepresentasikan sebuah variable/data yang tidak memiliki nilai. Berbeda dengan tipe data null yang akan menghasilkan null ketika ditampilkan, tipe data undefined akan menghasilkan hasil seperti berikut ini:
+  
+  ```
+  Nilai belum didefinisikan
+  element array tidak ada
+  ```
+  Tipe data undefined ini biasanya dihasilkan karena adanya error pada program ataupun kelalaian programmer. Dengan kata lain, tipe data ini tidak direncanakan kemunculannya.
+  
 - **Object**
 
+  Tipe data object adalah kumpulan pasangan property dan nilai. Tipe data ini dapat menyimpan data dengan tipe data apapun.
+  
+  Contoh:
+  ```
+  var person = {
+    fistName: "John",
+    lastName: "Kennedy"
+  };
+  ```
+
+## Variabel JavaScript
+
+Variabel merupakan tempat untuk menyimpan nilai. Hal-hal yang dapat dilakukan pada variabel adalah sebagai berikut:
+
+  - Membuat variabel dengan nama yang jelas dan menggambarkan tentang data tersebut
+  - Menyimpan dan mengupdate informasi atau data yang disimpan
+  - Mendapatkan atau menampilkan data yang tersimpan
+
+Untuk mendefinisikan variabel, terdapat 3 cara yaitu:
+
+  - **var**
+    
+    Pendefinisikan dengan menggunakan `var` digunakan untuk variabel dengan nilai yang dapat berubah, namun saat ini `var` sudah jarang digunakan. Hal tersebut dikarenakan pendefinisian dengan `var` tidak akan memunculkan error meskipun variabel dengan nama yang sama telah didefinisikan sebelumnya sehingga nilai dari variabel pertama akan ditimpa dengan nilai dari variabel yang baru.
+    
+  - **let**
+
+    Pendefinisian variabel dengan menggunakan `let` cocok untuk variabel dengan nilai yang dapat berubah-ubah.
+    
+  - **const**
+
+    Berbeda dengan `let`, pendefinisian dengan menggunakan `const` dilakukan untuk variabel dengan nilai yang tidak dapat diubah.
+
 ## Operator JavaScript
+
+Operator digunakan untuk menyimpan sebuah nilai pada variabel.
+
+  - **Operator Aritmatika**
+  - **Assignment Operator**
+  - **String Operator**
+  - **Operator Perbandingan**
+  - **Operator Logika**
 
 ## JavaScript Conditional
 

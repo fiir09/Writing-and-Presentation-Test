@@ -319,4 +319,38 @@ Conditional merupakan statement percabangan yang menggambarkan suatu kondisi ter
     
 ## JavaScript Looping (For Loop)
 
+Looping adalah sekumpulan kode yang akan dijalankan berulang kali hingga kondisi terpenuhi atau kondisi stop tercapai.
 
+- **For Loop**
+  
+  Jika banyak perulangan yang diinginkan telah diketahui secara pasti, maka kita dapat menggunakan for loop.
+  
+  ```
+  for (pernyataan1; pernyataan2; pernyataan3;){
+    //kode yang akan dijalankan jika pernyataan-pernyataan tersebut bernilai true
+  }
+  ```
+  
+  Keterangan:
+  
+    - `pernyataan1` digunakan untuk menentukan nilai awal berjalannya loop
+    - `pernyataan2` digunakan untuk kondisi berjalannya suatu loop. Jika kondisi `false`, maka loop berakhir
+    - `pernyataan3` digunakan untuk menambah atau mengurangi nilai awal dari `pernyataan1` setiap loop dijalankan
+   
+  Contoh:
+  
+  ```
+  for (let i=1; 1<=5; i++){
+    console.log(i);
+  }
+  ```
+  
+  Output dari kode di atas adalah:
+  
+  ```
+  1
+  2
+  3
+  4
+  5
+  ```

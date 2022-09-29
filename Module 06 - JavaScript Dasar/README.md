@@ -167,11 +167,156 @@ Untuk mendefinisikan variabel, terdapat 3 cara yaitu:
 Operator digunakan untuk menyimpan sebuah nilai pada variabel.
 
   - **Operator Aritmatika**
+
+    Operator aritmatikan digunakan pada operasi matematika yang melibatkan tipe data number. 
+    
+    Operator | Deskripsi
+    --- | ---
+    | + | Penjumlahan
+    | - | Pengurangan
+    | * | Perkalian
+    | / | Pembagian
+    | ** | Eksponen (pangkat)
+    | % | Modulus
+    | ++ | Increment (menambah 1)
+    | -- | Decrement (mengurangi 1)
+    
   - **Assignment Operator**
+
+    Assignment Operator digunakan untuk memberikan nilai pada variabel
+    
+    Assignment | Operator | Contoh Penggunaan | Setara Dengan 
+    --- | --- | --- | --- 
+    = |  | x = y | x = y
+    = | + | x += y | x = x + y
+    = | - | x -= y | x = x - y
+    = | * | x * = y | x = x * y
+    = | / | x /= y | x = x / y
+    = | % | x %= y | x = x % y
+    = | ** | x ** = y | x = x ** y
+    
   - **String Operator**
+
+    String operator digunakan untuk menggabungkan dua atau lebih data string.
+    
+    Terdapat 2 macam string operator, yaitu:
+    
+      - **Operator `+`**
+        
+        Contoh:
+        
+        ```
+        let namaDepan = "John";
+        let namaBelakang = "Kennedy";
+        
+        console.log(namaDepan + " " + namaBelakang); // Output: John Kennedy
+        ```
+        
+      - **Operator `+=`**
+        
+        Contoh:
+        
+        ```
+        let kata = "Selamat";
+        kata += "Pagi";
+        
+        console.log(kata); // Output: Selamat Pagi
+        ```
+        
   - **Operator Perbandingan**
+    
+    Operator perbandingan digunakan untuk membandingkan 2 data atau 2 nilai.
+    
+    Operator | Deskripsi
+    --- | ---
+    | == | Sama dengan (cek nilai)  
+    | === | Sama dengan (cek nilai dan tipe data) 
+    | != | Tidak sama dengan (cek nilai) 
+    | !== | Tidak sama dengan (cek nilai dan tipe data)
+    | > | Lebih dari 
+    | < | Kurang dari 
+    | >= | Lebih dari sama dengan 
+    | <= | Kurang dari sama dengan 
+    | ? : | Ternary Operator
+    
   - **Operator Logika**
+
+    Operator logika digunakan untuk menentukan logika antara 2 kondisi atau nilai.
+    
+     | Operator | Deskripsi 
+     | --- | --- 
+     | && | AND
+     |  | OR 
+     | ! | NOT 
+     
+     Bentuk operator dari `OR` adalah `||`.
 
 ## JavaScript Conditional
 
+Conditional merupakan statement percabangan yang menggambarkan suatu kondisi tertentu. Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut. Jika kondisi bernilai `true` maka kode yang terdapat di dalam kondisi akan dijalankan.
+    
+  - **If Statement**
+    
+    If Statement digunakan jika hanya ada 1 kondisi dan 1 keputusan yang dijalankan.
+    
+    ```
+    if (kondisi){
+      //kode yang akan dijalankan jika kondisi tercapat
+    }
+    ```
+    
+  - **If...Else Statement**
+
+    If...Else Statement digunakan jika terdapat 1 kondisi dan 2 keputusan yang dijalankan.
+    
+    ```
+    if (kondisi){
+      //kode yang akan dijalankan jika kondisi tercapai (bernilai `true`)
+    }
+    else{
+      //kode yang dijalankan jika kondisi tidak tercapai (bernilai `false`)
+    }
+    ```
+    
+  - **If...Else If... Statement**
+    
+    If...Else If... Statement digunakan jika terdapat beberapa kondisi dan beberapa keputusan yang dijalankan.
+    
+    ```
+    if (kondisi_1){
+      //kode yang dijalankan jika kondisi_1 tercapai
+    }
+    else if (kondisi_2){
+      //kode yang dijalankan jika kondisi_2 tercapai
+    }
+    else{
+      //kode yang dijalankan jika kondisi_1 dan kondisi_2 tidak tercapai
+    }
+    ```
+    
+  - **Switch Case**
+    
+    Switch Case digunakan jika kondisi dan percabangan terlalu banyak.
+    
+    ```
+    switch (pernyataan){
+      case kondisi1:
+        //keputusan yang dijalankan ketika kondisi1 tercapai
+        break;
+      case kondisi2:
+        //keputusan yang dijalankan ketika kondisi2 tercapai
+        break;
+      case kondisi3:
+        //keputusan yang dijalankan ketika kondisi3 tercapai
+        break;
+      case kondisi4:
+        //keputusan yang dijalankan ketika kondisi4 tercapai
+        break;
+      default:
+        //keputusan yang dijalankan jika tidak ada kondisi yang tercapai
+    }
+    ```
+    
 ## JavaScript Looping (For Loop)
+
+

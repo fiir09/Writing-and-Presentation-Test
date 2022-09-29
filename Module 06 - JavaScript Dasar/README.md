@@ -261,7 +261,7 @@ Conditional merupakan statement percabangan yang menggambarkan suatu kondisi ter
     
     ```
     if (kondisi){
-      //kode yang akan dijalankan jika kondisi tercapat
+      //kode yang akan dijalankan jika kondisi tercapai
     }
     ```
     
@@ -340,7 +340,7 @@ Looping adalah sekumpulan kode yang akan dijalankan berulang kali hingga kondisi
   Contoh:
   
   ```
-  for (let i=1; 1<=5; i++){
+  for (let i=1; i<=5; i++){
     console.log(i);
   }
   ```

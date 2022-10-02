@@ -317,7 +317,7 @@ Conditional merupakan statement percabangan yang menggambarkan suatu kondisi ter
     }
     ```
     
-## JavaScript Looping (For Loop)
+## JavaScript Looping
 
 Looping adalah sekumpulan kode yang akan dijalankan berulang kali hingga kondisi terpenuhi atau kondisi stop tercapai.
 
@@ -354,3 +354,32 @@ Looping adalah sekumpulan kode yang akan dijalankan berulang kali hingga kondisi
   4
   5
   ```
+  
+- **While Loop**
+
+  While Loop adalah perulangan yang tidak diketahui secara pasti perulangannya sampai kapan. Perulangan berdasarkan kondisi.
+  
+  ```
+  while (kondisi){
+    //kode yang dijalankan jika kondisi bernilai benar (true)
+  }
+  ```
+
+- **Do While Loop**
+
+  Perulangan dilakukan hingga kondisinya terpenuhi. Syntax penulisan mirip seperti if, tetapi if hanya sekali dijalankan tetapi do while akan berulang.
+  
+  ```
+    Do{
+      //kode yang akan dijalankan Ketika kondisi benar
+    }
+    While (kondisi);
+    ```
+
+- **Penggunaan Looping**
+
+  Kriteria | Looping yang Digunakan
+  --- | ---
+  Saat jumlah perulangan telah diketahui secara pasti | For Loop
+  Jumlah perulangan belum diketahui dan kondisi ditanyakan terlebih dahulu (sebelum perulangan) | While Loop
+  Jumlah perulangan belum diketahui dan kondisi ditanyakan terakhir (setelah eksekusi/perulangan) | DO While Loop

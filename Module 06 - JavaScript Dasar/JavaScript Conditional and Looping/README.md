@@ -382,4 +382,4 @@ Looping adalah sekumpulan kode yang akan dijalankan berulang kali hingga kondisi
   --- | ---
   Saat jumlah perulangan telah diketahui secara pasti | For Loop
   Jumlah perulangan belum diketahui dan kondisi ditanyakan terlebih dahulu (sebelum perulangan) | While Loop
-  Jumlah perulangan belum diketahui dan kondisi ditanyakan terakhir (setelah eksekusi/perulangan) | DO While Loop
+  Jumlah perulangan belum diketahui dan kondisi ditanyakan terakhir (setelah eksekusi/perulangan) | Do While Loop

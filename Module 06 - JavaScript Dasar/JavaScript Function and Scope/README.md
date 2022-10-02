@@ -123,3 +123,51 @@ Function dapat dituliskan dengan beberapa cara seperti berikut ini:
    ```
    
    Pada kode di atas, untuk `console.log (penjumlahan (5, 2))` menghasilkan output 2 meskipun hanya memiliki 2 argument. Hal tersebut dikarenakan pada penulisan parameter di bagian atas kode, kita telah menuliskan default parameternya sehingga nilai argumen yang belum didefinisikan tersebut akan digantikan dengan defaultnya.
+
+## JavaScript Scope
+
+Scope adalah konsep dalam flow data variabel yang menentukan suatu variabel dapat diakses pada scobe tertentu atau tidak.
+
+ ### Block
+
+   Block adalah kode yang terdapat di dalam kurung kurawal `{}`. Block ini biasanya digunakan pada conditional, looping, dan function.
+    
+ ### Global Scope
+
+   Pada global scope, variabel dapat diakses dimana saja baik di luar maupun di dalam function atau block kode. Agar suatu variabel dapat menjadi global scope, maka variabel tersebut harus dideklarasikan di luar block.
+   
+   Contoh:
+   
+   ```
+   let a = 4
+   let b = 7
+
+   function penjumlahan (){
+     return a + b
+   }
+
+   console.log(a + b);    //Output: 11
+   ```
+   
+   Pada contoh di atas, variabel `a` dan `b` dideklarasikan secara global scope.
+   
+ ### Local Scope
+
+   Pada local scope, variabel dideklarasikan di dalam block sehingga variabel tersebut hanya dapat diakses di dalam block saja.
+   
+   Contoh:
+   
+   ```
+   function penjumlahan (){
+      let a = 4
+      let b = 7
+      return a + b
+
+      console.log(a+b);
+   }
+
+   console.log(penjumlahan());    //Output: 11
+   console.log(a + b);           //Output: Uncaught ReferenceError: a is not defined
+   ```
+   
+   

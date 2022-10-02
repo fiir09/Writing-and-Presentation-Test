@@ -93,5 +93,33 @@ Function dapat dituliskan dengan beberapa cara seperti berikut ini:
  
  - **Definisi**
     
-   Parameter adalah syarat input yang harus dimasukkan ke dalam suatu function dan dideklarasikan bersama dengan deklarasi function. Sedangkan argument adalah nilai yang dimasukkan ke dalam suatu function sesuai dengan persyaratan parameter. Argument dituliskan bersamaan dengan pemanggilan function.
- - **Argument**
+   Parameter adalah syarat input yang harus dimasukkan ke dalam suatu function dan dideklarasikan bersama dengan deklarasi function. Dengan parameter, function dapat menerima inputan data dan menggunakannya untuk menjalankan tugas. Saat membuat function, kita harus mengetahui data-data yang dibutuhkan. Misalnya saat ingin membuat function penjumlahan 2 nilai, maka data yang dibutuhkan adalah data 2 nilai tersebut.
+   
+    Argument adalah nilai yang dimasukkan ke dalam suatu function sesuai dengan persyaratan parameter. Argument dituliskan bersamaan dengan pemanggilan function. Jumlah dari argument harus sama dengan jumlah parameter. Jadi jika kita mempunyai function penjumlahan dengan 2 parameter, maka kita juga harus menggunakan 2 buah argumen saat memanggil function tersebut.
+    
+    ```
+    function penjumlahan(a, b){
+      return a + b
+    }
+
+    console.log(penjumlahan(2, 3))
+    ```
+    
+    Pada kode di atas, `a` dan `b` adalah parameter, sedangkan `2` dan `3` adalah argument.
+   
+ - **Default Parameter**
+ 
+   Default parameter digunakan untuk memberikan nilai awal atau nilai default pada parameter function. Penggunaan default parameter ini juga akan menghindari hasil error apabila jumlah argument kurang dari jumlah parameter dimana parameter yang tidak memiliki argument tersebut akan diberi nilai default sesuai yang telah ditentukan pada bagian awal kode.
+   
+   Contoh:
+   
+   ```
+   function penjumlahan (a, b, c = 4){
+      return a + b + c
+   }
+
+   console.log (penjumlahan (2, 5, 1))    //Output: 8
+   console.log (penjumlahan (5, 2))      //Ouput: 11
+   ```
+   
+   Pada kode di atas, untuk `console.log (penjumlahan (5, 2))` menghasilkan output 2 meskipun hanya memiliki 2 argument. Hal tersebut dikarenakan pada penulisan parameter di bagian atas kode, kita telah menuliskan default parameternya sehingga nilai argumen yang belum didefinisikan tersebut akan digantikan dengan defaultnya.

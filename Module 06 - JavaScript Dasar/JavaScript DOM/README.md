@@ -85,48 +85,80 @@ document.getElementByClassName ("container")
   ...
   ```
 
-### Membuat Element HTML
+### Membuat dan Menyematkan Element HTML
 
-Untuk membuat sebuah element HTML, dapat menggunakan:
+- **Membuat ELement HTML**
 
-- **.createElement()**
-
-  `.createElement()` digunakan untuk membuat sebuah element HTML.
-
-- **.textContent**
-
-  `.textContent` digunakan untuk mengubah kontennya.
-
-- **appendChild()**
-
-  `appendChild()` digunakan untuk menambahkan elemen ke DOM
-
-**Contoh: **
-
-```
-<div id = "header"></div>
-
-//membuat element heading
-const heading = document.createElement("h1")
-heading.textContent = "Ini Heading"
-
-document.getElementById ("header").appendChild (heading)
-```
-
-Hasil akhir dari kode di atas akan terlihat seperti berikut ini:
-
-```
-<div id = "header">
-  <h1>Ini Heading</h1>
-</div>
-```
-### Interaksi User (Events)
-
-Interaksi user bersifat 2 arah. Selain menampilkan elemen HTML, halaman web juga harus dapat menangkap interaksi user. Untuk menangkap interaksi user, maka dapat menggunakan:
-
-- **Element.addEventListener(“event”)**
-
+  Agar halaman web menjadi lebih dinamis, maka terkadang kita perlu membuat element baru. Untuk membuat element baru, kita dapat memanfaatkan method `.createElement()`. Method ini digunakan untuk membuat element baru dengan menyertakan nama tag spesifik yang dituju sebagai parameter.
   
+- **Menyematkan Element HTML**
 
-- **Element.onevent**
+  Setelah element baru dibuat dengan menggunakan `.createElement()`, kita dapat menggunakan method `append()` dan `appendChild()` agar konten element tersebut tidak kosong.
 
+    - **append()**
+    
+      Method ini digunakan untuk menerima argument yang memiliki tipe node atau string.
+      
+    - **appendChild()**
+    
+      Method ini digunakan untuk menyematkan element lain sebagai child dari element tersebut.
+
+  **Contoh:**
+
+  ```
+  <div id = "header"></div>
+
+  //membuat element heading
+  const heading = document.createElement("h1")
+  heading.textContent = "Ini Heading"
+
+  document.getElementById ("header").appendChild (heading)
+  ```
+
+  Hasil akhir dari kode di atas akan terlihat seperti berikut ini:
+
+  ```
+  <div id = "header">
+    <h1>Ini Heading</h1>
+  </div>
+  ```
+
+### Memanipulasi Attribute Element
+
+Element yang terdaftar dalam DOM terkadang masih perlu mendapatkan perubahan agar tampilan menjadi lebih dinamis. Untuk melakukan hal tersebut, maka diperlukan method `setAttribut()` dari object bertipe Element. Method tersebut menerima 2 parameter, yaitu nama attribute dan value dari attribute itu sendiri.
+
+**Contoh Penggunaan `setAttribut()`**
+
+Misal kita akan melakukan manipulasi pada attribute element `<img>`.
+
+```
+...
+const image = document.getElementsByTagName('img')[0];
+    image.setAttribute('src', 'link image');
+...
+```
+
+### Menambahkan Event Pada Element
+
+- **Definisi**
+
+  Event merupakan hal yang tidak dapat dipisahkan ketika kita ingin membuat halaman web yang interaktif. Event merupakan kemampuan JavaScript untuk menerima keadaan atau kejadian dari suatu element. Event dapat dipicu oleh aksi yang dilakukan user seperti mengeklik tombol mouse, menekan tombol keyboard, dan sebagainya. Selain itu, event juga dapat dipicu secara terprogram.
+  
+  Untuk menerapkan event handler pada element, maka dapat menggunakan interface EventTarget. Salah satu method dari EventTarget adalah `addEventListener()`. Method tersebut dapat menyiapkan function yang akan dipanggil kapan pun event tersebut dipicu pada element target.
+  
+- **Contoh:**
+
+  ```
+  ...
+  const btn = document.querySelector('button');
+ 
+    function random(number) {
+      return Math.floor(Math.random() * (number+1));
+    }
+ 
+    btn.addEventListener('click', () => {
+      const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+      document.body.style.backgroundColor = rndCol;
+    });
+    ...
+  ```

@@ -5,15 +5,13 @@ DOM (Document Object Model) yang berarti dokumen (HTML) yang dimodelkan dalam se
 
 Perlu diingat bahwa DOM bukan merupakan bagian dari JavaScript, melainkan bagian dari browser (web API).
 
-Di HTML DOM, semua element HTML dari sebuah website akan dianggap sebagai object. Sama seperti object JavaScript pada umumnya, object element HTML di HTML DOM juga mempunyai properti dan method atau yang lebih dikenal dengan istilah DOM Property dan DOM Method.
-
 ## Struktur HTML DOM
 
 ![HTML DOM](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2006%20-%20JavaScript%20Dasar/HTML%20DOM.png)
 
-## DOM Property
+## DOM Property dan DOM Method
 
-## DOM Method
+Di HTML DOM, semua element HTML dari sebuah website akan dianggap sebagai object. Sama seperti object JavaScript pada umumnya, object element HTML di HTML DOM juga mempunyai properti dan method atau yang lebih dikenal dengan istilah DOM Property dan DOM Method. DOM Property dapat digunakan untuk mengubah nilai property dari element HTML. Sedangkan DOM Method dapat digunakan untuk memanggil function dari suatu element HTML.
 
 ## Memanipulasi Element HTML
 

@@ -15,10 +15,118 @@ Di HTML DOM, semua element HTML dari sebuah website akan dianggap sebagai object
 
 ## Memanipulasi Element HTML
 
-### Mencari Element HTML
+### Mengakses Element HTML
+
+Jika ingin mengakses elemen yang spesifik, maka dapat menggunakan beberapa function berikut ini:
+
+- **getElementById()**
+
+  Function tersebut digunakan untuk memilih element berdasarkan attribute `id`.
+
+- **getElementByName()**
+
+  Function tersebut digunakan untuk memilih element berdasarkan attribute `name`.
+  
+- **getElementByClassName()**
+
+  Function tersebut digunakan untuk memilih element berdasarkan attribute `class`.
+
+- **getElementByTagName()**
+
+  Function tersebut digunakan untuk memilih element berdasarkan nama tag.
+
+- **querySelector()**
+
+  Function tersebut digunakan untuk memilih element berdasarkan query.
+ 
+ 
+**Contoh Penggunaan**
+
+```
+Index.html
+
+<body>
+  <div id = "header">
+    ...
+  </div>
+  
+  <div class = "container"></div>
+</body>
+```
+
+```
+document.getElementById ("header")
+document.getElementByClassName ("container")
+```
 
 ### Mengubah Konten Element
 
-### Mengubah Attribute Element
+- **Element.textContent**
 
-### Membuat Element
+  `Element.textContent` dapat digunakan untuk mengubah teks di dalam sebuah element.
+  
+  Contoh Penulisan:
+  
+  ```
+  ...
+  document.getElementById ("heading").textContent = "perubahan text"
+  ...
+  ```
+
+- **Element.innerHTML**
+
+  `Element.innerHTML` dapat digunakan untuk mengubah konten HTML di dalam sebuah element.
+  
+  Contoh Penulisan:
+  
+  ```
+  ...
+  document.getElementById ("heading").innerHTML = "perubahan konten HTML"
+  ...
+  ```
+
+### Membuat Element HTML
+
+Untuk membuat sebuah element HTML, dapat menggunakan:
+
+- **.createElement()**
+
+  `.createElement()` digunakan untuk membuat sebuah element HTML.
+
+- **.textContent**
+
+  `.textContent` digunakan untuk mengubah kontennya.
+
+- **appendChild()**
+
+  `appendChild()` digunakan untuk menambahkan elemen ke DOM
+
+**Contoh: **
+
+```
+<div id = "header"></div>
+
+//membuat element heading
+const heading = document.createElement("h1")
+heading.textContent = "Ini Heading"
+
+document.getElementById ("header").appendChild (heading)
+```
+
+Hasil akhir dari kode di atas akan terlihat seperti berikut ini:
+
+```
+<div id = "header">
+  <h1>Ini Heading</h1>
+</div>
+```
+### Interaksi User (Events)
+
+Interaksi user bersifat 2 arah. Selain menampilkan elemen HTML, halaman web juga harus dapat menangkap interaksi user. Untuk menangkap interaksi user, maka dapat menggunakan:
+
+- **Element.addEventListener(“event”)**
+
+  
+
+- **Element.onevent**
+

@@ -49,10 +49,12 @@ Di JavaScript, terdapat banyak tipe data non primitive, di antaranya Array, Obje
 
 ## Standard Built-in Objects
 
-Istilah "global object" atau "standard built-in object" berbeda dengan global object yang mengacu pada object dengan lingkup global.
+Istilah "global object" atau "standard built-in object" berbeda dengan global object yang mengacu pada object dengan lingkup global. 
 
-## String
+### String
 
-## Number
 
-## Math
+
+### Number
+
+### Math

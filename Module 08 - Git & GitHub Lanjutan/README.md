@@ -5,7 +5,7 @@ GitHub memungkinkan setiap development dapat berkolaborasi satu sama lain. Agar 
 
 - ### **Membuat Organization**
 
-  Tahap awal untuk dapat berkolaborasi dengan menggunakan GitHub adalah membuat organization di dalam GitHub. Untuk membuat organization di dalam GitHub, maka pilih tanda tambah `+` di bagian kanan atas kemudian pilih `New organization`. 
+  Tahap awal untuk dapat berkolaborasi dengan menggunakan GitHub adalah membuat organization di dalam GitHub. Untuk membuat organization di dalam GitHub, maka pilih tanda tambah `+` di bagian kanan atas kemudian pilih `New organization`. Setelah itu lanjutkan pengisian sesuai dengan petunjuk.
 - ### **Invite Member**
 - ### **Membuat Repository**
 - ### **Menambahkan Dev Branch**

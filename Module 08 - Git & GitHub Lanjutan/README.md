@@ -20,5 +20,13 @@ GitHub memungkinkan setiap development dapat berkolaborasi satu sama lain. Agar 
   Setelah memiliki repository, maka selanjutnya adalah membuat branch baru.
 
 - ### **Cloning Repository**
+
+  Selanjutnya adalah melakukan cloning pada repository yang masih kosong. Setiap member di dalam grup melakukan cloning kemudian mengerjakan pengerjaannya di dalam repository yang telah dicloning tersebut.
+
 - ### **Menambahkan Hasil Pengerjaan ke dalam Dev Branch**
+
+  Jika pekerjaan telah selesai, maka setiap member menambahkan hasil pengerjaannya pada dev branch. Untuk menambahkan hasil ke dalam dev branch harus melalui persetujuan dari ketua team. Sehingga member yang ingin menambahkan hasilnya pada dev branch harus mengirim request terlebih dahulu.
+
 - ### **Menambahkan ke Main Branch**
+
+  Jika setiap pekerjaan telah selesai dan sesuai, maka hasil yang ada pada dev branch dapat ditambahkan ke dalam main branch.

@@ -25,4 +25,14 @@ Beberapa kelebihan yang dimiliki bootstrap antara lain:
 ## Kelemahan Bootstrap
 Beberapa kelemahan dari bootstrap antara lain:
 
-- ****
+- **Memperlambat Website**
+
+  Saat pertama kali diunduh, bootstrap memiliki ukuran yang tidak terlalu besar. Tetapi seiring dengan pengembangan website, maka akan file yang digunakan sehingga membuat website menjadi lebih berat. Untuk mencegah atau mengurangi hal tersebut, maka kita dapat menggunakan class bootstrap yang dibutuhkan saja.
+
+- **Menghambat Proses Belajar**
+
+  Bootstrap tidak terlalu disarankan pada developer pemula yang ingin belajar melakukan coding. Hal tersebut dikarenakan bootstrap menyediakan kemudahan dalam pembuatan website tanpa melakukan coding yang rumit. Sehingga pemula yang ingin belajar melakukan coding tidak akan belajar lebih jauh mengenai coding jika menggunakan bootstrap.
+  
+- **Kemiripan dengan Website Bootstrap Lain**
+
+  Bootstrap adalah sebuah framework untuk menerapkan gaya visual pada sebuah website. Framework ini dikembangkan dengan tujuan untuk mempermudah pengembangan website dengan menggunakan template dalam kode yang digunakan. Oleh karena itu, beberapa website yang menggunakan bootstrap akan memiliki tampilan visual yang serupa terutama jika developer tidak melakukan banyak perubahan atau kostumisasi pada kode bawaannya.

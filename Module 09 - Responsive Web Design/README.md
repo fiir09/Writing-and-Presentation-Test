@@ -29,9 +29,30 @@ Media query merupakan modul CSS yang berguna untuk membuat layout menjadi respon
 ### Cara Kerja Media Query
 Media query juga dapat disebut dengan breakpoint karena cara kerjanya dengan melakukan pengecekan pada ukuran viewport apakah telah sesuai dengan kondisi yang dideklarasikan atau belum. Jika kondisi telah sesuai, maka kode dalam kondisi tersebut akan dieksekusi.
 
-### Penggunaan Media Query
-Terdapat 2 cara untuk menggunakan media query, yaitu:
+### Jenis Media Query
+Media query pada responsive web design umumnya hanya menggunakan 2 jenis media query, yaitu:
 
-- **Internal Media Query**
+- **min-width**
 
-- **Eksternal Media Query**
+  Contoh penggunaan:
+  
+  ```
+  @media (max-width: 960px) {
+    //kode CSS
+  }
+  ```
+  
+  Pada contoh di atas, semua kode CSS yang berada di dalam blok tersebut akan diterapkan saat lebar layar perangkat memiliki ukuran di bawah atau sama dengan 960px.
+
+- **max-width**
+
+   Contoh penggunaan:
+  
+    ```
+    @media (min-width: 800px) {
+      //kode CSS
+    }
+    ```
+
+    Pada contoh di atas, semua kode CSS yang berada di dalam blok tersebut akan diterapkan saat lebar layar perangkat memiliki ukuran di atas atau sama dengan 800px.
+

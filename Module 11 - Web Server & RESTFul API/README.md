@@ -48,7 +48,7 @@ Dalam sisi software, web server mencakup beberapa bagian yang mengontrol bagaima
 
 REST (REpresentational State Transfer) merupakan gaya arsitektur untuk menyediakan standart antara sistem komputer di web sehingga memudahkan sistem untuk berkomunikasi satu sama lain. Sistem yang sesuai dengan REST sering disebut dengan sistem RESTFul yang dicirikan oleh sifatnya yang stateless dan dapat memisahkan masalah antara client dan server.
 
-
+Stateless berarti server tidak perlu mengetahui apapun tentang status client begitu pula sebaliknya. Sehingga baik server maupun client dapat memahami pesan apapun yang diterima, bahkan tanpa melihat pesan sebelumnya. Dengan kata lain, dalam gaya arsitektur REST, implementasi client dan implementasi server dapat dilakukan secara independen tanpa saling mengetahui satu sama lain. Karena implementasi tersebut dapat dilakukan secara independen, maka kode pada sisi client dapat diubah setiap saat tanpa mempengaruhi operasi server dan kode di sisi server dapat diubah tanpa mempengaruhi operasi client.
 
 ### Communication between Client and Server
 

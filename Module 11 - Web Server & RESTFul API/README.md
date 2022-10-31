@@ -52,10 +52,86 @@ Stateless berarti server tidak perlu mengetahui apapun tentang status client beg
 
 ### Communication between Client and Server
 
+**Making Request**
+
+  REST mengharuskan client untuk membuat request ke server untuk mengambil atau mengubah data yang ada pada server. Pada umumnya, request terdiri dari:
+  
+    - HTTP verb yang mendefinisikan jenis operasi apa yang harus dilakukan 
+    
+    - header, yang memungkinkan client untuk menyampaikan informasi mengenai request
+    
+    - path yang menuju ke resource
+    
+    - optional message body yang berisikan data
+
+- **HTTP VERBS**
+
+  Terdapat 4 HTTP Verb dasar yang digunakan dalam request untuk berinteraksi dengan resource di dalam sistem REST, yaitu:
+  
+    - `GET`, digunakan untuk mengambil resource tertentu (berdasarkan id) atau kumpulan resources
+    
+    - `POST`, digunakan untuk membuat resource baru
+    
+    - `PUT`, digunakan untuk memperbarui resource tertentu (berdasarkan id)
+
+    - `DELETE`, digunakan untuk menghapus resource tertentu dengan id
+
 ### Headers and Accept Parameters
+
+Di dalam header request, client mengirimkan jenis konten yang dapat diterimanya dari server. Itu disebut dengan accept field, yang memastikan server tidak mengirim data yang tidak dapat dipahami atau diproses oleh client. Opsi untuk tipe konten adalah MIME Types (Multipurpose Internet Mail Extensions).
+
+Tipe dan subtipe lain yang umum digunakan juga adalah:
+
+  - **Image**
+
+    Contohnya adalah image/png, image/jpeg, dan image/gif
+    
+  - **Audio**
+
+    Contohnya adalah audio/wav dan audio/mpeg
+    
+  - **Video**
+
+    Contohnya adalah video/mp4 dan video/ogg
+    
+  - **Application**
+
+    Contohnya adalah application/json, application/pdf, application/xml, dan application/octet-stream
 
 ### Paths
 
+Request harus diberi path atau jalur ke resource tempat operasi harus dilakukan. Dalam RESTful API, path harus dirancang untuk membantu client mengetahui apa yang sedang terjadi. Misal terdapat path berikut ini:
+
+```
+skilvulstore.com/customers/223/orders/12
+```
+
+Path tersebut memiliki sifat hierarkis dan deskriptif sehingga kita dapat mengerti apa yang ditunjukkan path tersebut meski belum pernah melihatnya sebelumnya. Path pada contoh di atas menunjukkan bahwa kita mengakses orders dengan id 12 untuk costumers yang memiliki id 223.
+
 ### Sending Responses
 
-### Request & Response
+**Respond Code**
+
+Respond dari server berisi status codes untuk memperingatkan client tentang informasi mengenai keberhasilan operasi. 
+
+Ada 5 kategori yang berbeda status code HTTP yang diklasifikasikan berdasarkan jenis response yang dikomunikasikan server kepada client, yaitu:
+
+  - **`1xx` - Informational code**
+  
+     Kode tersebut menunjukkan bahwa request telah diterima dan dipahami. Kode ini dikeluarkan sementara pemrosesan request berlanjut.
+     
+  - **`2xx` - Success code**
+
+    Kode tersebut menunjukkan bahwa request yang diminta diterima, dipahami, dan disetujui. Dengan kata lain, server menyelesaikan apa yang diminta dengan lengkap dan sukses.
+    
+  - **`3xx` - Redirection code**
+
+    Kode tersebut menunjukkan bahwa client dapat mengambil tindakan tambahan untuk menyelesaikan request. Biasanya tindakan tambahan itu adalah mengarahkan pengguna ke URL lain. Banyak kode status dalam kategori ini digunakan dalam pengalihan URL.
+    
+  - **`4xx` - Client error code**
+
+    Kode tersebut menunjukkan bahwa request tidak dapat dipenuhi karena ada kesalahan yang datang dari client.
+    
+  - **`5xx` - Server error code**
+
+    Kode tersebut menunjukkan bahwa server mengalami kesalahan atau tidak mampu melakukan permintaan yang valid.

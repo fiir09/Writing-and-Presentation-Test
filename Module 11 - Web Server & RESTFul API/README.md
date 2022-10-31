@@ -19,4 +19,22 @@ Dalam sisi software, web server mencakup beberapa bagian yang mengontrol bagaima
 
   Dynamic web server terdiri dari static web server ditambah dengan extra software. Extra software tersebut biasanya adalah server aplikasi dan database. Pada dynamic web server, server aplikasi akan memperbarui hosted files atau file yang dihosting sebelum mengirim konten ke browser melalui server HTTP.
 
+### Server Side Programming
+
+- **Definisi**
+- **Static Sites**
+- **Dynamic Sites**
+
 ## RESTFul API
+
+### REST
+
+### Communication between Client and Server
+
+### Headers and Accept Parameters
+
+### Paths
+
+### Sending Responses
+
+### Request & Response

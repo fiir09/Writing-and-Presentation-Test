@@ -22,3 +22,16 @@ Kode di atas akan memberikan instruksi kepada browser tentang cara mengontrol di
 `initial-scale = 1.0` digunakan untuk men-setting tingkat zoom awal saat halaman pertama kali dimuat oleh browser.
 
 ## Media Query
+
+### Definisi
+Media query merupakan modul CSS yang berguna untuk membuat layout menjadi responsive dengan menyesuaikan tampilan berdasarkan ukuran layar perangkat.
+
+### Cara Kerja Media Query
+Media query juga dapat disebut dengan breakpoint karena cara kerjanya dengan melakukan pengecekan pada ukuran viewport apakah telah sesuai dengan kondisi yang dideklarasikan atau belum. Jika kondisi telah sesuai, maka kode dalam kondisi tersebut akan dieksekusi.
+
+### Penggunaan Media Query
+Terdapat 2 cara untuk menggunakan media query, yaitu:
+
+- **Internal Media Query**
+
+- **Eksternal Media Query**

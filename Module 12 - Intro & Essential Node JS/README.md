@@ -23,13 +23,39 @@ JavaScript merupakan bahasa pemrograman yang digunakan di front-end side sehingg
 ### Build In Module Node.js
 
 - **Console**
+
+  Console merupakan module bawaan dari javascript yang ada di node.js. Console digunakan sebagai debug atau menampilkan kode secara interface.
+
 - **Process**
+
+  Process adalah module yang digunakan untuk menampilkan dan mengontrol prosess Node.js yang sedang dijalankan.
+
 - **OS**
+
+  OS module merupakan module yang digunakan untuk menyediakan informasi terkait sistem operasi komputer yang digunakan oleh user.
+
 - **Util**
+
+  Module Util merupakan alat bantu atau utilities untuk mendukung kebutuhan internal API di Node.js.
+
 - **Events**
+
+  Events merupakan
+
 - **Errors**
+
+  Errors merupakan module yang dapat digunakan untuk mendefinisikan error di Node.js sehingga lebih informatif. Kita juga dapat menghandle error menggunakan try catch.
+
 - **Buffer**
+
+  Buffer merupakan module yang digunakan untuk mengakses, mengelola, dan mengubah tipe data raw atau tipe data bytes.
+
 - **FS**
+
+  Fs (file system) merupakan module yang dapat membantu berinteraksi dengan file yang ada diluar kode. FS paling sering digunakan untuk membaca file dengan ekstensi .txt, .csv, dan .json.
+
 - **Timers**
+
+  Timers merupakan module yang digunakan untuk melakukan scheduling atau mengatur waktu pemanggilan fungsi yang dapat diatur di waktu tertentu.
 
 ### Membuat Web Server Dengan Node JS

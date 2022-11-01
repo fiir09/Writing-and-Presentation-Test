@@ -17,3 +17,19 @@ Dengan menggunakan konsep arsitektur JavaScript, kita dapat melihat JavaScript s
 
 ### Server side scripting
 JavaScript merupakan bahasa pemrograman yang digunakan di front-end side sehingga kita hanya dapat mengerjakan JavaScript dengan menggunakan browser untuk menampilkan hasil eksekusinya. Namun, dengan menggunakan node.js kita dapat menjalankan JavaScript di server side dengan menggunakan terminal command line menggunakan perintah `node`.
+
+## Node.js for Back end Development
+
+### Build In Module Node.js
+
+- **Console**
+- **Process**
+- **OS**
+- **Util**
+- **Events**
+- **Errors**
+- **Buffer**
+- **FS**
+- **Timers**
+
+### Membuat Web Server Dengan Node JS

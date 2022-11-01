@@ -67,6 +67,10 @@ JavaScript merupakan bahasa pemrograman yang digunakan di front-end side sehingg
   Untuk menggunakan modul HTTP, kita dapat menggunakan `require()`. Kemudian untuk membuat server HTTP, kita dapat menggunakan method `createServer()`. Callback function yang digunakan pada method `http.createServer()` akan dijalankan ketika seseorang mencoba mengakses komputer pada port 8080.
 
 - **Menambahkan HTTP Header**
+
+  Untuk menambahkan header pada HTTP, dapat menggunakan method `res.writeHead()`. Argumen pertama dari method tersebut adalah status code sedangkan argumen kedua object yang berisi header respons.
+  
+  Respons yang dikembalikan dari HTTP web server dapat dilakukan dalam berbagai format dimana format tersebut harus ditambahkan ke dalam HTTP header. Misal kita dapat mengembalikan response dalam format JSON dan HTML, namun kita juga dapat mengembalikannya dengan format text yang lain. Selain itu, web server juga dapat mengembalikan data non-text seperti pdf, file zip, audio, dan video.
+
 - **Membaca Query String**
 - **Split Query String**
-- 

@@ -59,3 +59,9 @@ JavaScript merupakan bahasa pemrograman yang digunakan di front-end side sehingg
   Timers merupakan module yang digunakan untuk melakukan scheduling atau mengatur waktu pemanggilan fungsi yang dapat diatur di waktu tertentu.
 
 ### Membuat Web Server Dengan Node JS
+
+- **Node.js Web Server**
+- **Menambahkan HTTP Header**
+- **Membaca Query String**
+- **Split Query String**
+- 

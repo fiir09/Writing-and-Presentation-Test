@@ -61,6 +61,11 @@ JavaScript merupakan bahasa pemrograman yang digunakan di front-end side sehingg
 ### Membuat Web Server Dengan Node JS
 
 - **Node.js Web Server**
+
+  Node.js memiliki built-in modul yang disebut dengan HTTP yang memungkinkan Node.js mentransfer data melalui Hyper Text Transfer Protocol (HTTP). Modul HTTP dapat membuat server HTTP yang mendengarkan port server dan memberikan respons kembali ke client.
+  
+  Untuk menggunakan modul HTTP, kita dapat menggunakan `require()`. Kemudian untuk membuat server HTTP, kita dapat menggunakan method `createServer()`. Callback function yang digunakan pada method `http.createServer()` akan dijalankan ketika seseorang mencoba mengakses komputer pada port 8080.
+
 - **Menambahkan HTTP Header**
 - **Membaca Query String**
 - **Split Query String**

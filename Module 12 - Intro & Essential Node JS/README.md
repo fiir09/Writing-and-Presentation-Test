@@ -73,4 +73,9 @@ JavaScript merupakan bahasa pemrograman yang digunakan di front-end side sehingg
   Respons yang dikembalikan dari HTTP web server dapat dilakukan dalam berbagai format dimana format tersebut harus ditambahkan ke dalam HTTP header. Misal kita dapat mengembalikan response dalam format JSON dan HTML, namun kita juga dapat mengembalikannya dengan format text yang lain. Selain itu, web server juga dapat mengembalikan data non-text seperti pdf, file zip, audio, dan video.
 
 - **Membaca Query String**
+
+  Callback function pada method `http.createServer()` memiliki argument `req` yang mewakili request dari client sebagai object (object `http.IncomingMessage`). Object tersebut memiliki sebuah property yang disebut dengan `url` yang menyimpan url yang sedang mengakses.
+
 - **Split Query String**
+
+  Untuk split query string menjadi beberapa bagian yang dapat dibaca kita dapat menggunakan build-in module `URL Module`.

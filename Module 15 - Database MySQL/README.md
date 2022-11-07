@@ -95,6 +95,17 @@ Pada SQL, setidaknya terdapat 3 jenis perintah dasar. Perintah-perintah tersebut
 
   - **Rename**
   - **Drop**
+
+    Drop digunakan untuk menghapus database, table, dan view atau index.
+    
+    Misal kita memiliki sebuah database dengan nama PBD2021 yang memiliki table mahasiswa, kelas, dosen, matakuliah, dan krs. Kemudian kita ingin menghapus database tersebut, maka kita dapat menggunakan perintah seperti berikut ini:
+    
+    ```
+    DROP DATABASE PBD2021
+    ```
+    
+    Pada contoh di atas, `PBD2021` merupakan nama database yang ingin kita hapus.
+
   - **Show**
 
 - **DML (Data Manipulation Language)**
@@ -102,9 +113,63 @@ Pada SQL, setidaknya terdapat 3 jenis perintah dasar. Perintah-perintah tersebut
   DML (Data Manipulation Language) adalah perintah untuk memanipulasi data. Perintah DML terbagi menjadi 4 jenis, yaitu:
   
   - **Insert**
+
+    Insert digunakan untuk memasukkan data ke kolom-kolom yang terdapat pada table.
+    
+    Contoh:
+    
+    ```
+    INSERT INTO Nama_Table VALUES (value1, value2, ..., valueN)
+    ```
+    
+    atau
+    
+    ```
+    INSERT INTO Nama_Table (namaField1, namaField2, ..., namaFieldN) VALUES (value1, value2, ..., valueN)
+    ```
+
   - **Select**
+
+    Select digunakan untuk menyeleksi data berdasarkan syarat yang diberikan. Dengan menggunakan perintah select, record di dalam table tertentu dengan jumlah yang banyak dapat ditampilkan.
+    
+    ```
+    SELECT * FROM NAMA_TABLE
+    ```
+    
+    Perintah di atas digunakan jika kita ingin menampilkan seluruh data yang ada pada suatu table.
+    
+    ```
+    SELECT Nama_column FROM Nama_Table
+    ```
+    
+    Perintah di atas digunakan jika kita hanya ingin menampilkan kolom atau field tertentu yang ada pada suatu table.
+    
+    ```
+    SELECT DISTINCT Nama_Column FROM Nama_Table
+    ```
+    
+    Perintah di atas digunakan jika kita ingin menampilkan data yang ada pada kolom atau field tertentu yang ada pada suatu table. Perintah `DISTINCT` pada contoh di atas digunakan jika kita ingin menampilkan hasil duplikasi dari query.
+
   - **Update**
+
+    Update digunakan untuk melakukan editing pada isi dari field yang dipilih. Hal tersebut dilakukan untuk memperbaiki data lama atau saat terjadi kesalahan.
+    
+    Contoh:
+    
+    ```
+    UPDATE Nama_Table SET Nama_Kolom = "new data" WHERE key_column = 1;
+    ```
+
   - **Delete**
+
+    Delete digunakan untuk menghapus data dalam table yang menjadi target.
+    
+    Contoh:
+    
+    ```
+    DELETE FROM Nama_Table WHERE Condition;
+    ```
+
 
 - **DCL (Data Control Language)**
 

@@ -24,19 +24,49 @@ Field didefinisikan sebagai kolom dari sebuah table dimana setiap field memiliki
 Dalam database, record merupakan kumpulan elemen-elemen di dalam field yang saling berkaitan untuk memberikan informasi mengenai suatu entitas dengan lengkap. Secara singkat, record merupakan isi dari sebuah table.
 
 ### Query
-Query dapat didefinisikan sebagai kumpulan perintah yang digunakan untuk mengolah data dalam table maupun database. Berikut adalah beberapa query yang umum digunakan:
+Query dapat didefinisikan sebagai kumpulan perintah yang digunakan untuk mengolah data dalam table maupun database.
 
-- **Create**
-- **Read**
-- **Update**
-- **Delete**
-
-### SQL
+## SQL
 Secara struktur, Database dapat terbagi menjadi 2, yaitu SQL dan NoSQL. SQL (Structured Query Language) merupakan suatu bahasa yang digunakan untuk mengakses database. SQL adalah bahasa query yang digunakan untuk melakukan interaksi di RDMS (Relational Database Management System).
+
+SQL memiliki tipe database relasional karena SQL mengatur data yang berada di dalam database secara terstruktur ke dalam baris dan kolom yang telah ditentukan dengan table yang saling terkait dalam satu database.
+
+### Perintah SQL
+
+Pada SQL, setidaknya terdapat 3 jenis perintah dasar. Perintah-perintah tersebut antara lain:
+
+- **DDL (Data Definition Language)**
+
+  DDL (Data Definition Language) adalah perintah yang digunakan untuk mendefinisikan data seperti membuat table database baru, mengubah dataset, dan menghapus data. Perintah dasar DDL dibagi menjadi setidaknya 5 jenis perintah, yaitu:
+  
+  - **Create**
+  - **Alter**
+  - **Rename**
+  - **Drop**
+  - **Show**
+
+- **DML (Data Manipulation Language)**
+
+  DML (Data Manipulation Language) adalah perintah untuk memanipulasi data. Perintah DML terbagi menjadi 4 jenis, yaitu:
+  
+  - **Insert**
+  - **Select**
+  - **Update**
+  - **Delete**
+
+- **DCL (Data Control Language)**
+
+  DCL (Data Control Language) adalah perintah yang digunakan khususnya untuk mengatur hak apa saja yang dimiliki oleh user. Baik hak terhadap database, table, maupun field yang ada. Dengan menggunakan perintah ini, admin database dapat menjaga kerahasiaan sebuah database. Perintah dasar DCL terbagi menjadi 2, yaitu:
+  
+  - **Grant**
+  - **Revoke**
 
 ## Database MySQL
 
-## Relational Database
+## Database Relationships
+Database Relationships adalah relasi atau hubungan antar beberapa table dalam database. Relasi antar table tersebut dihubungkan oleh primary key dan foreign key.
+
+
 
 ## Tipe Data pada MySQL
 

@@ -282,6 +282,41 @@ Join adalah penggabungan table yang dilakukan melalui kolom atau key tertentu ya
   
   ![right join](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2015%20-%20Database%20MySQL/right%20join.png)
 
+## Database Normalization
+
+### Definisi
+Database normalization merupakan teknik analisis data yang mengorganisasikan attribute-attribute data dengan cara mengelompokkan data tersebut sehingga terbentuk suatu entitas yang non-redundant, stabil, dan fleksibel.
+
+Database normalization ini memiliki beberapa bertujuan, diantaranta adalah untuk:
+
+- Menghilankan redundant data pada database
+- Memudahkan jika terdapat perubahan struktur table database
+- Memperkecil pengaruh jika terdapat perubahan dari struktur table database
+
+### Efek Jika Tidak Melakukan Normalization
+Jika suatu database tidak dilakukan normalization, maka akan menimbulkan efek. Efek-efek yang dapat ditimbulkan diantaranya adalah:
+
+- **INSERT Anomali**
+
+  INSERT Anomali adalah situasi dimana tidak memungkinkan untuk memasukkan beberapa jenis data secara langsung di database.
+
+- **DELETE Anomali**
+
+  DELETE Anomali adalah penghapusan data yang tidak sesuai dengan yang diharapkan sehingga data yang seharusnya tidak terhapus memiliki kemungkinan untuk ikut terhapus juga.
+
+- **UPDATE Anomali**
+
+  UPDATE Anomali adalah situasi dimana nilai yang diubah menyebabkan inkonsistensi database sehingga data yang diubah tidak sesuai dengan yang diperintahkan atau yang diinginkan.
+
+### Bentuk Database Normalization
+
+- **First Normal Form (1NF)
+- **Second Normal Form (2NF)
+- **Third Normal Form (3NF)
+
+## Aggregate Functions
+
+
 
 ## Tipe Data pada MySQL
 

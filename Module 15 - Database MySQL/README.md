@@ -58,6 +58,41 @@ Pada SQL, setidaknya terdapat 3 jenis perintah dasar. Perintah-perintah tersebut
   
   - **Create**
   - **Alter**
+
+    Alter digunakan untuk mengubah struktur dari table yang ada, seperti untuk menambahkan atau menghapus kolom atau field. Alter juga dapat digunakan untuk membuat atau menghapus primary key, mengubah jenis kolom atau field yang sudah ada, serta mengubah kolom atau nama table.
+    
+    Contoh:
+    
+    - **Menambah Primary Key**
+
+      Misal kita memiliki table mahasiswa dengan field nya adalah nim, nama, jurusan, dan angkatan. Kemudian kita ingin menjadikan field `nim` sebagai primary key.
+      
+      ```
+      ALTER TABLE mahasiswa ADD Primary key (nim)
+      ```
+      
+      Pada contoh di atas, `mahasiswa` merupakan nama table dan `nim` merupakan nama field yang ingin kita jadikan sebagai primary key pada table mahasiswa.
+
+    - **Menambah Kolom atau Field**
+
+      Misal kita ingin menambahkan field `alamat` pada table mahasiswa.
+      
+      ```
+      ALTER TABLE mahasiswa ADD alamat varchar (50)
+      ```
+      
+      Pada contoh di atas, `mahasiswa` merupakan nama table, `alamat` merupakan field atau kolom yang ingin kita tambahkan pada table mahasiswa, dan `varchar (50)` merupakan tipe data dari field dengan panjangnya adalah 50.
+
+    - **Mengubah Struktur Table**
+
+      Misal kita ingin mengubah panjang dari field alamat yang sebelumnya 50 menjadi 40.
+      
+      ```
+      ALTER TABLE mahasiswa ALTER COLUMN alamat varchar (40)
+      ```
+      
+      Pada contoh di atas, `mahasiswa` adalah nama table, `alamat` adalah field yang panjangnya ingin kita ubah, dan `(40)` adalah panjang field yang kita inginkan.
+
   - **Rename**
   - **Drop**
   - **Show**

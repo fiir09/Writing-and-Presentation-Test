@@ -238,8 +238,25 @@ Database Relationships adalah relasi atau hubungan antar beberapa table dalam da
 ### Tipe Database Relationships
 
 - **One To One Relationships**
+
+  Relasi One to One adalah relasi dimana setiap satu baris data pada table pertama hanya berhubungan dengan satu baris data pada table kedua.
+  
+  ![1-1](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2015%20-%20Database%20MySQL/1-1.png)
+
 - **One to Many and Many to One Relationships**
+
+  Relasi One to Many adalah relasi dimana setiap satu baris data pada table pertama berhubungan dengan lebih dari satu baris data pada table kedua. Sedangkan relasi Many to One adalah kebalikan dari relasi One to Many, yaitu ketika lebih dari satu baris data pada table pertama berhubungan dengan satu baris data pada table kedua.
+  
+  Berikut adalah visualisasi dari relasi One to Many.
+  
+  ![1-Many](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2015%20-%20Database%20MySQL/1-many.png)
+
 - **Many to Many Relationships**
+
+  Relasi Many to Many adalah relasi dimana lebih dari satu baris data pada table pertama berhubungan dengan lebih dari satu baris data pada table kedua.
+  
+  ![Many-Many](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2015%20-%20Database%20MySQL/many-many.png)
+
 - **Self Referencing Relationships**
 
 ## Tipe Data pada MySQL

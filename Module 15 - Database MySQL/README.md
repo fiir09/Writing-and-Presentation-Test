@@ -201,11 +201,39 @@ Database Relationships adalah relasi atau hubungan antar beberapa table dalam da
 
 - **Primary Key**
 
-  Primary key adalah attribute yang mengidentifikasi secara unik suatu kejadian dan juga mewakili setiap kejadian suatu entitas. Misal dalam sebuah database kita memiliki table mahasiswa dengan fieldnya yaitu nama, nim, jurusan, dan angkatan. Kita dapat menentukan primary key dalam table tersebut adalah `nim`. Hal tersebut dikarenakan `nim` berisi attribute yang unik dimana setiap mahasiswa akan memiliki nim yang berbeda dan setiap nim pasti akan merujuk pada satu nama mahasiswa.
+  Primary key adalah attribute yang mengidentifikasi secara unik suatu kejadian dan juga mewakili setiap kejadian suatu entitas. Setiap table dalam database wajib memiliki 1 primary key.
+  
+  Misal dalam sebuah database kita memiliki table mahasiswa dengan fieldnya yaitu nama, nim, jurusan, dan angkatan. Kita dapat menentukan primary key dalam table tersebut adalah `nim`. Hal tersebut dikarenakan `nim` berisi attribute yang unik dimana setiap mahasiswa akan memiliki nim yang berbeda dan setiap nim pasti akan merujuk pada satu nama mahasiswa.
+  
+  ```
+  CREATE TABLE mahasiswa (
+    nim int PRIMARY KEY,
+    nama varchar (50),
+    jurusan varchar (30),
+    angkatan int
+  );
+  ```
+  
+  Pada contoh di atas, kita membuat sebuah table `mahasiswa` dengan `nim` sebagai primary key.
 
 - **Foreign Key**
 
-Primary key adalah attribute yang mengidentifikasi secara unik suatu kejadian dan juga mewakili setiap kejadian suatu entitas. Setiap table dalam database wajib memiliki 1 primary key. Sedangkan foreign key adalah attribute yang melengkapi relationship dan menunjukkan hubungan antar table induk dan table anak. 
+  Foreign key adalah attribute yang melengkapi relationship dan menunjukkan hubungan antar table induk dan table anak. Foreign key akan menjaga dari input data yang tidak valid pada kolom foreign key.
+  
+  Contoh:
+  
+  ```
+  CREATE TABLE dosen (
+    nip int PRIMARY KEY,
+    nama varchar (50),
+  );
+  
+  CREATE TABLE matakuliah (
+    idMatakuliah int AUTO_INCREMENT PRIMARY KEY,
+    SKS int,
+    FOREIGN KEY (nip) REFERENCES dosen (nip)
+  );
+  ```
 
 ### Tipe Database Relationships
 

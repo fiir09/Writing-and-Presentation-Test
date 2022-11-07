@@ -56,7 +56,6 @@ Pada SQL, setidaknya terdapat 3 jenis perintah dasar. Perintah-perintah tersebut
 
   DDL (Data Definition Language) adalah perintah yang digunakan untuk mendefinisikan data seperti membuat table database baru, mengubah dataset, dan menghapus data. Perintah dasar DDL dibagi menjadi beberapa jenis perintah, di antaranya adalah:
   
-  - **Create**
   - **Alter**
 
     Alter digunakan untuk mengubah struktur dari table yang ada, seperti untuk menambahkan atau menghapus kolom atau field. Alter juga dapat digunakan untuk membuat atau menghapus primary key, mengubah jenis kolom atau field yang sudah ada, serta mengubah kolom atau nama table.
@@ -93,7 +92,6 @@ Pada SQL, setidaknya terdapat 3 jenis perintah dasar. Perintah-perintah tersebut
       
       Pada contoh di atas, `mahasiswa` adalah nama table, `alamat` adalah field yang panjangnya ingin kita ubah, dan `(40)` adalah panjang field yang kita inginkan.
 
-  - **Rename**
   - **Drop**
 
     Drop digunakan untuk menghapus database, table, dan view atau index.
@@ -258,11 +256,32 @@ Database Relationships adalah relasi atau hubungan antar beberapa table dalam da
   ![Many-Many](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2015%20-%20Database%20MySQL/many-many.png)
 
 ## SQL Table Join
+Join adalah penggabungan table yang dilakukan melalui kolom atau key tertentu yang memiliki nilai terkait untuk mendapatkan satu set data dengan informasi yang lengkap. Join dapat dibagi menjadi 4 jenis, yaitu inner join, full join, left join, dan right join.
 
 - ### Inner Join
+  
+  Inner Join digunakan untuk menampilkan data hanya yang sesuai di kedua table.
+  
+  ![inner join](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2015%20-%20Database%20MySQL/inner%20join.png)
+
 - ### Full Join
+
+  Full join digunakan untuk menampilkan seluruh data yang ada pada kedua table.
+  
+  ![full join](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2015%20-%20Database%20MySQL/full%20join.png)
+
 - ### Left Join
+
+  Left join digunakan untuk menampilkan semua data sebelah kiri dari table yang dijoinkan dan menampilkan data sebelah kanan yang cocok dengan kondisi join. Jika pada data sebelah kanan tidak ditemukan kecocokan dengan kondisi join, maka akan diset NULL secara otomatis.
+  
+  ![left join](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2015%20-%20Database%20MySQL/left%20join.png)
+
 - ### Right Join
+
+  Right join digunakan untuk menampilkan semua data sebelah kanan dari tabel yang dijoinkan dan menampilkan data sebelah kiri yang cocok dengan kondisi join. Jika pada data sebelah kiri tidak ditemukan kecocokan dengan kondisi join, maka akan diset NULL secara otomatis. Singkatnya, right join adalah kebalikan dari left join.
+  
+  ![right join](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2015%20-%20Database%20MySQL/right%20join.png)
+
 
 ## Tipe Data pada MySQL
 

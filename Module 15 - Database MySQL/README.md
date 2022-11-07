@@ -54,7 +54,7 @@ Pada SQL, setidaknya terdapat 3 jenis perintah dasar. Perintah-perintah tersebut
 
 - **DDL (Data Definition Language)**
 
-  DDL (Data Definition Language) adalah perintah yang digunakan untuk mendefinisikan data seperti membuat table database baru, mengubah dataset, dan menghapus data. Perintah dasar DDL dibagi menjadi setidaknya 5 jenis perintah, yaitu:
+  DDL (Data Definition Language) adalah perintah yang digunakan untuk mendefinisikan data seperti membuat table database baru, mengubah dataset, dan menghapus data. Perintah dasar DDL dibagi menjadi beberapa jenis perintah, di antaranya adalah:
   
   - **Create**
   - **Alter**
@@ -106,11 +106,10 @@ Pada SQL, setidaknya terdapat 3 jenis perintah dasar. Perintah-perintah tersebut
     
     Pada contoh di atas, `PBD2021` merupakan nama database yang ingin kita hapus.
 
-  - **Show**
 
 - **DML (Data Manipulation Language)**
 
-  DML (Data Manipulation Language) adalah perintah untuk memanipulasi data. Perintah DML terbagi menjadi 4 jenis, yaitu:
+  DML (Data Manipulation Language) adalah perintah untuk memanipulasi data. Perintah DML terbagi menjadi beberapa jenis perintah, yaitu:
   
   - **Insert**
 

@@ -7,21 +7,38 @@ Untuk membuat database diperlukan sebuah software yang dinamakan DBMS (Database 
 
 ![dbms](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2015%20-%20Database%20MySQL/dbms.png)
 
-<!-- Database dapat terbagi menjadi 2, yaitu SQL dan NoSQL. -->
-<!-- ### SQL
-
-### NoSQL -->
-
 ## Istilah Pada Database
 
 ### Table
 Table adalah kumpulan value yang dibangun oleh baris dan kolom yang di dalamnya berisi attribute dari sebuah data. Pada database, kolom didefinisikan sebagai struktur table, sedangkan baris adalah kontennya.
 
+Misal terdapat sebuah kasus dimana kita akan membuat database dari mahasiswa yang ingin mendaftarkan diri pada suatu kelas dan mengisi KRS. Berdasarkan kasus tersebut, kita dapat membuat beberapa table pada database, yaitu table mahasiswa, kelas, dosen, matakuliah, dan krs.
+
 ### Field
 Field didefinisikan sebagai kolom dari sebuah table dimana setiap field memiliki tipe datanya masing-masing. Dalam definisi yang lain, field merupakan kumpulan karakter yang terdapat dalam suatu attribute yang menunjukkan atau menampilkan suatu item.
 
+Misal pada kasus sebelumnya dimana kita akan membuat database dengan salah satu tablenya yaitu table mahasiswa. Field dari table mahasiswa adalah nim, nama, jurusan, dan angkatan.
+
+ **MAHASISWA**
+| Column name | Data Type |
+| --- | --- |
+| NIM | int |
+| Nama_mahasiswa | varchar |
+| Jurusan | varchar |
+| Angkatan | int |
+
 ### Record
 Dalam database, record merupakan kumpulan elemen-elemen di dalam field yang saling berkaitan untuk memberikan informasi mengenai suatu entitas dengan lengkap. Secara singkat, record merupakan isi dari sebuah table.
+
+Contoh:
+
+**MAHASISWA**
+| NIM | Nama_mahasiswa | Jurusan | Angkatan |
+| --- | --- | --- | --- |
+| 1901 | Lala | sastra inggris | 2019 |
+| 1905 | Sari | hukum | 2019 |
+
+Pada table di atas, baris ke 2 dan 3 merupakan record.
 
 ### Query
 Query dapat didefinisikan sebagai kumpulan perintah yang digunakan untuk mengolah data dalam table maupun database.

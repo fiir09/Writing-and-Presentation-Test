@@ -176,7 +176,24 @@ Pada SQL, setidaknya terdapat 3 jenis perintah dasar. Perintah-perintah tersebut
   DCL (Data Control Language) adalah perintah yang digunakan khususnya untuk mengatur hak apa saja yang dimiliki oleh user. Baik hak terhadap database, table, maupun field yang ada. Dengan menggunakan perintah ini, admin database dapat menjaga kerahasiaan sebuah database. Perintah dasar DCL terbagi menjadi 2, yaitu:
   
   - **Grant**
+
+    Grant digunakan untuk memberikan hak akses pada user.
+    
+    Contoh:
+    
+    ```
+    GRANT INSERT, UPDATE, DELETE ON MAHASISWA TO PUBLIC
+    ```
+
   - **Revoke**
+
+    Revoke digunakan untuk mencabut hak akses yang telah diberikan kepada user.
+    
+    Contoh:
+    
+    ```
+    REVOKE SELECT ON MAHASISWA TO PUBLIC
+    ```
 
 ## Database MySQL
 

@@ -257,7 +257,12 @@ Database Relationships adalah relasi atau hubungan antar beberapa table dalam da
   
   ![Many-Many](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2015%20-%20Database%20MySQL/many-many.png)
 
-- **Self Referencing Relationships**
+## SQL Table Join
+
+- ### Inner Join
+- ### Full Join
+- ### Left Join
+- ### Right Join
 
 ## Tipe Data pada MySQL
 

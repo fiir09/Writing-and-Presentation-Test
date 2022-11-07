@@ -310,9 +310,9 @@ Jika suatu database tidak dilakukan normalization, maka akan menimbulkan efek. E
 
 ### Bentuk Database Normalization
 
-- **First Normal Form (1NF)
-- **Second Normal Form (2NF)
-- **Third Normal Form (3NF)
+- **First Normal Form (1NF)**
+- **Second Normal Form (2NF)**
+- **Third Normal Form (3NF)**
 
 ## Aggregate Functions
 

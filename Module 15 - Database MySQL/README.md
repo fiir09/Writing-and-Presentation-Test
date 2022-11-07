@@ -199,6 +199,12 @@ Pada SQL, setidaknya terdapat 3 jenis perintah dasar. Perintah-perintah tersebut
 ## Database Relationships
 Database Relationships adalah relasi atau hubungan antar beberapa table dalam database. Relasi antar table tersebut dihubungkan oleh primary key dan foreign key.
 
+- **Primary Key**
+
+  Primary key adalah attribute yang mengidentifikasi secara unik suatu kejadian dan juga mewakili setiap kejadian suatu entitas. Misal dalam sebuah database kita memiliki table mahasiswa dengan fieldnya yaitu nama, nim, jurusan, dan angkatan. Kita dapat menentukan primary key dalam table tersebut adalah `nim`. Hal tersebut dikarenakan `nim` berisi attribute yang unik dimana setiap mahasiswa akan memiliki nim yang berbeda dan setiap nim pasti akan merujuk pada satu nama mahasiswa.
+
+- **Foreign Key**
+
 Primary key adalah attribute yang mengidentifikasi secara unik suatu kejadian dan juga mewakili setiap kejadian suatu entitas. Setiap table dalam database wajib memiliki 1 primary key. Sedangkan foreign key adalah attribute yang melengkapi relationship dan menunjukkan hubungan antar table induk dan table anak. 
 
 ### Tipe Database Relationships

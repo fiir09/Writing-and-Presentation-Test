@@ -410,3 +410,41 @@ ORDER BY Nama_Column(s);
 ```
 
 ## LIKE & Wildcards
+
+### LIKE
+Operator `LIKE` digunakan dalam klausa `WHERE` untuk mencari pola tertentu dalam suatu kolom. 
+
+```
+SELECT Column1, Column2, ...
+FROM Nama_Table
+WHERE ColumnN LIKE Pattern;
+```
+
+### Wildcards
+Karakter Wildcards digunakan untuk menggantikan satu atau lebih karakter dalam sebuah string.
+
+- **Wildcard Characters di SQL**
+
+  - **%**
+
+    Karakter `%` mewakili nol atau lebih karakter. 
+    
+    Contoh:
+    
+    - `%a` akan cocok dengan `banana`, `iguana`, dan 'anoa'
+    
+    - `k%` akan cocok dengan `kadal`, `kecambah`, dan `kecamatan`
+
+    - `r%a` akan cocok dengan `rusa`, `rasa`, dan `raksasa`
+    
+  - **_**
+
+    Karakter `_` mewakili satu karakter.
+    
+    Contoh:
+    
+    - `_api` akan cocok dengan `sapi` dan `tapi`
+
+    - `kak_` akan cocok dengan `kaki` dan `kaku`
+
+    - `_arun_` akan cocok dengan `karung` dan `warung`

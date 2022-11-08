@@ -379,9 +379,34 @@ Aggregate Functions adalah function yang menerima koleksi nilai dan mengembalika
   ```
 
 ## UNION
+`UNION` digunakan untuk menggabungkan kumpulan hasil dari dua atau lebih pernyataan `SELECT`. Setiap pernyataan `SELECT` dalam `UNION` harus memiliki jumlah kolom yang sama dengan urutan yang sama dan setiap kolom tersebut juga harus memiliki tipe data yang serupa.
+
+```
+SELECT Nama_Column(s) FROM Table1
+UNION
+SELECT Nama_Column(s) FROM Table2;
+```
 
 ## GROUP BY
+`GROUP BY` digunakan untuk mengelompokkan baris yang memiliki nilai yang sama ke dalam baris ringkasan. `GROUP BY` juga sering digunakan dengan aggregate function untuk mengelompokkan kumpulan hasil dengan satu atau lebih kolom.
+
+```
+SELECT Nama_Column(s)
+FROM Nama_Table
+WHERE Condition
+GROUP BY Nama_Column(s);
+```
 
 ## HAVING
+`HAVING` ditambahkan ke SQL karena kata kunci WHERE tidak dapat digunakan dengan aggregate function.
+
+```
+SELECT Nama_Column(s)
+FROM Nama_Table
+WHERE Condition
+GROUP BY Nama_Column(s)
+HAVING Condition
+ORDER BY Nama_Column(s);
+```
 
 ## LIKE & Wildcards

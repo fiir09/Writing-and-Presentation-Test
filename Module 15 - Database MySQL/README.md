@@ -192,8 +192,6 @@ Pada SQL, setidaknya terdapat 3 jenis perintah dasar. Perintah-perintah tersebut
     REVOKE SELECT ON MAHASISWA TO PUBLIC
     ```
 
-## Database MySQL
-
 ## Database Relationships
 Database Relationships adalah relasi atau hubungan antar beberapa table dalam database. Relasi antar table tersebut dihubungkan oleh primary key dan foreign key.
 
@@ -380,6 +378,10 @@ Aggregate Functions adalah function yang menerima koleksi nilai dan mengembalika
   WHERE Condition;
   ```
 
-## Tipe Data pada MySQL
+## UNION
 
-## Manipulasi Query
+## GROUP BY
+
+## HAVING
+
+## LIKE & Wildcards

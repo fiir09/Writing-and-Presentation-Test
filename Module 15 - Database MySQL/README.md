@@ -310,6 +310,10 @@ Jika suatu database tidak dilakukan normalization, maka akan menimbulkan efek. E
 
 ### Bentuk Database Normalization
 
+- **Unnormalized Form (UNF)**
+
+  UNF adalah bentuk data tidak normal dimana pada data tersebut terdapat pengulangan grup sehingga menimbulkan masalah saat melakukan manipulasi data.
+
 - **First Normal Form (1NF)**
 
   Suatu table dikatakan 1NF ketika:
@@ -329,8 +333,52 @@ Jika suatu database tidak dilakukan normalization, maka akan menimbulkan efek. E
   Secara ringkas, pada 3NF ini jika terdapat attribute yang tidak bergantung pada primary key tetapi bergantung pada field yang lain, maka attribute-attribute tersebut perlu dipisah ke table yang baru.
 
 ## Aggregate Functions
+Aggregate Functions adalah function yang menerima koleksi nilai dan mengembalikan nilai tunggal sebagai hasilnya. Beberapa aggregate function adalah sebagai berikut:
 
+- ### MAX
+  `MAX` adalah aggregate function yang digunakan untuk mengembalikan nilai terbesar dari kolom yang dipilih.
+  
+  ```
+  SELECT MAX (Nama_Column)
+  FROM Nama_Table
+  WHERE Condition;
+  ```
 
+- ### MIN
+  `MIN` adalah aggregate function yang digunakan untuk mengembalikan nilai terkecil dari kolom yang dipilih.
+  
+   ```
+   SELECT MIN (Nama_Column)
+   FROM Nama_Table
+   WHERE Condition;
+   ```
+
+- ### SUM
+  `SUM` adalah aggregate function yang mengembalikan jumlah total kolom numerik.
+  
+  ```
+  SELECT SUM (Nama_Column)
+  FROM Nama_Table
+  WHERE Condition;
+  ```
+
+- ### COUNT
+  `COUNT` adalah aggregate function yang mengembalikan jumlah baris yang cocok dengan kriteria yang telah ditentukan.
+  
+  ```
+  SELECT COUNT (Nama_Column)
+  FROM Nama_Table
+  WHERE Condition;
+  ```
+
+- ### AVG
+  `AVG` adalah aggregate function yang mengembalikan nilai rata-rata dari kolom numerik.
+  
+  ```
+  SELECT AVG (Nama_Column)
+  FROM Nama_Table
+  WHERE Condition;
+  ```
 
 ## Tipe Data pada MySQL
 

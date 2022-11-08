@@ -311,8 +311,22 @@ Jika suatu database tidak dilakukan normalization, maka akan menimbulkan efek. E
 ### Bentuk Database Normalization
 
 - **First Normal Form (1NF)**
+
+  Suatu table dikatakan 1NF ketika:
+  
+  - Setiap kolom bernilai tunggal (single value)
+  - Setiap kolom memiliki nama yang unik
+  - Urutan penyimpanan data tidak menjadi masalah
+
 - **Second Normal Form (2NF)**
+
+  Pada 2NF, tidak diperkenankan terdapat partial functional dependency kepada primary key dalam sebuah table. Functional dependency adalah setiap attribute yang bukan merupakan kunci bergantung secara fungsional terhadap primary key. Secara ringkas, pada tahap 2NF table harus dipecah berdasarkan primary key.
+
 - **Third Normal Form (3NF)**
+
+  Pada 3NF tidak diperkenankan adanya partial transitive dependency dalam sebuah table. Transitive dependency biasanya terjadi pada table hasil relasi atau kondisi dimana terdapat attribute A, B, dan C sedemikian hingga A => B dan B=> C maka C dikatakan sebagai transitive dependency terhadap A melalui B.
+  
+  Secara ringkas, pada 3NF ini jika terdapat attribute yang tidak bergantung pada primary key tetapi bergantung pada field yang lain, maka attribute-attribute tersebut perlu dipisah ke table yang baru.
 
 ## Aggregate Functions
 

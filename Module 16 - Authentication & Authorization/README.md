@@ -39,6 +39,8 @@ Sebelum client dapat menikmati layanan server, client tersebut harus melalui pro
 
 ## Encryption
 
+### Definisi
+
 Encryption adalah proses untuk membuat suatu susunan acak dari text yang dapat dibaca manusia (human-readable plaintext) menjadi text yang tidak dapat dibaca manusia dan hanya dimengerti oleh system saja. Text hasil proses encryption disebut dengan ciphertext.
 
 Encryption sering digunakan untuk mengamankan data yang berupa informasi atau pesan, hal tersebut bertujuan untuk menjaga keamanan dan mencegah pihak tidak bertanggung jawab mengetahui isi dari pesan yang dikirimkan. Saat pihak ketiga yang tidak bertanggung jawab berusaha untuk membaca pesan tersebut, maka yang terbaca hanyalah teks acak yang tidak dapat dimengerti.
@@ -47,5 +49,14 @@ Meskipun proses encryption akan mengubah pesan yang dikirimkan menjadi text acak
 
 ### Jenis-jenis Encryption 
 
+Encryption terbagi menjadi 2 jenis, yaitu Symmetric Encryption dan Asymmetric Encryption.
+
 - **Symmetric Encryption**
+
+  Symmetric Encryption atau yang dapat juga disebut dengan secret key encryption merupakan encryption yang hanya menggunakan 1 key sehingga pengirim dan penerima pesan atau informasi memiliki key yang identik. Jadi pengirim atau system harus memberikan key kepada siapa saja yang berhak mendeskripsikan pesan.
+
 - **Asymmetric Encryption**
+
+  Asymmetric Encryption atau yang dapat juga disebut dengan public key encryption merupakan encryption yang menggunakan 2 buah key yang berbeda tetapi saling berhubungan. Key tersebut biasanya disebut dengan public key dan private key.
+  
+  Public key memiliki peran untuk melakukan encryption, sedangkan private key memiliki peran untuk melakukan proses deskripsi. Kedua key tersebut dibuat secara berpasangan. Pengirim dan penerima informasi sama-sama menyimpan sebuah private key di aplikasi mereka masing-masing.

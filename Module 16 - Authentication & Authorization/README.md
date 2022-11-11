@@ -77,14 +77,18 @@ Cookie adalah file text dengan ukuran maksimal 4kb yang disimpan pada browser cl
 
 ## JSON Web Token
 
-### Definisi
-
 JSON Web Token adalah sebuah JSON Object yang didefinisikan dalam RFC 7519 sebagai cara aman untuk mewakili sekumpulan informasi antara dua pihak. Token terdiri dari header, content, dan signature.
 
-### JWT Header
+- ### JWT Header
 
-### JWT Payload
+  Header berisi informasi mengenai algoritma dan jenis token yang digunakan.
 
-### JWT Signature
+- ### JWT Payload
+
+  Payload berisi data yang ingin dikirimkan melalui token. Dalam penerapannya di authentication dan authorization, biasanya data ini berupa data yang unik bagi user, seperti email ataupun ID, serta data yang berkaitan dengan authorization seperti role karena data tersebut akan digunakan sebagai tanda pengenal si pengirim token.
+
+- ### JWT Signature
+
+  Signature adalah hash gabungan dari header, payload dan sebuah secret key. Algoritma hash yang digunakan mengikuti dari apa yang sudah ditentukan di dalam header. Signature digunakan untuk memverifikasi bahwa header maupun payload yang ada dalam token tidak berubah dari nilai aslinya.
 
 ## Membuat Authentication dan Authorization

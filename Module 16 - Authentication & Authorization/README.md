@@ -27,7 +27,14 @@ Authentication adalah suatu proses dimana seorang user (melalui berbagai macam a
 
 ## Authorization
 
-### Definisi
 Authorization adalah proses penentuan apakah seorang user diizinkan atau ditolak untuk melakukan satu atau beberapa action akses terhadap resources tertentu dalam sistem. User login terhadap system dengan menggunakan user ID dan password, kemudian system mengenalinya dan user mendapatkan akses atau ditolak terhadap suatu resources system tertentu.
+
+Authorization sangat penting bagi keamanan web. Authorization juga bertanggung jawab atas segala hal mulai dari mencegah pengguna memodifikasi akun satu sama lain, melindungi aset back-end dari penyerang, hingga memberikan akses terbatas ke layanan eksternal.
+
+## Hubungan Authentication dan Authorization
+
+Sebelum client dapat menikmati layanan server, client tersebut harus melalui proses authentication terlebih dahulu. Setelah proses authentication berhasil, maka akan terjalin hubungan trust antara client dan server sehingga client cukup melakukan proses authentication sekali saja sampai client tersebut logout atau keluar. Selanjutnya, setiap ada permintaan layanan, server akan menghubungi system authorization untuk menentukan apakah client tersebut berhak atas layanan yang dimintanya atau tidak. Hubungan di atas, dapat dilihat dari gambar berikut ini:
+
+![hub auth](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2016%20-%20Authentication%20%26%20Authorization/hub%20auth.png)
 
 ## Encryption

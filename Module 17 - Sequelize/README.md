@@ -28,7 +28,7 @@ Untuk menginstall npm, kita dapat menggunakan perintah berikut ini:
 npm install --save sequelize
 ```
 
-![]()
+![sequelize](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2017%20-%20Sequelize/sequelize.png)
 
 Untuk menginstall driver database, kita dapat menggunakan perintah berikut ini:
 

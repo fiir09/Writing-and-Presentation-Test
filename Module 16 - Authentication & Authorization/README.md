@@ -75,8 +75,6 @@ Dengan kata lain, session mengacu pada serangkaian interaksi user selama jangka 
 
 Cookie adalah file text dengan ukuran maksimal 4kb yang disimpan pada browser client. Cookie digunakan untuk pelacakan dan identifikasi user. Saat browser mengirim permintaan ke web server, secara otomatis browser juga akan mengirimkan informasi cookie ke server. Kemudian server akan menggunakan informasi untuk mengenali user. Cookie menyimpan informasi hingga informasi tersebut dihapus oleh pengguna atau diatur sesuai pengatur waktu. Menutup browser tidak akan menghapus cookies.
 
-## Cookie Security
-
 ## JSON Web Token
 
 ### Definisi
@@ -89,4 +87,4 @@ JSON Web Token adalah sebuah JSON Object yang didefinisikan dalam RFC 7519 sebag
 
 ### JWT Signature
 
-## Authentication dan Authorization
+## Membuat Authentication dan Authorization

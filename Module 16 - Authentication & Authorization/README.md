@@ -72,3 +72,17 @@ Situs web terdiri dari beberapa halaman. Misal ketika user memasukkan informasi 
 Dengan kata lain, session mengacu pada serangkaian interaksi user selama jangka waktu tertentu dimana data session disimpan di sisi server dan dikaitkan dengan session ID.
 
 ### Cookie
+
+## Cookie Security
+
+## JSON Web Token
+
+### Definisi
+
+### JWT Header
+
+### JWT Payload
+
+### JWT Signature
+
+## Authentication dan Authorization

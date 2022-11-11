@@ -44,3 +44,8 @@ Encryption adalah proses untuk membuat suatu susunan acak dari text yang dapat d
 Encryption sering digunakan untuk mengamankan data yang berupa informasi atau pesan, hal tersebut bertujuan untuk menjaga keamanan dan mencegah pihak tidak bertanggung jawab mengetahui isi dari pesan yang dikirimkan. Saat pihak ketiga yang tidak bertanggung jawab berusaha untuk membaca pesan tersebut, maka yang terbaca hanyalah teks acak yang tidak dapat dimengerti.
 
 Meskipun proses encryption akan mengubah pesan yang dikirimkan menjadi text acak, namun pesan tersebut tetap dapat dibaca oleh penerima pesan yang dimaksudkan. Hal tersebut dikarenakan sebelum pesan tersampaikan kepada penerima pesan, ciphertext akan melewati proses decrypt terlebih dahulu. Proses decrypt merupakan proses yang mengubah text acak atau ciphertext menjadi text biasa atau plain text. Proses decrypt tersebut hanya akan terjadi jika seseorang memiliki akses atau diberi akses untuk melihat data yang dienskripsi.
+
+### Jenis-jenis Encryption 
+
+- **Symmetric Encryption**
+- **Asymmetric Encryption**

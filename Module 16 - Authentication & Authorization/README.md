@@ -90,5 +90,3 @@ JSON Web Token adalah sebuah JSON Object yang didefinisikan dalam RFC 7519 sebag
 - ### JWT Signature
 
   Signature adalah hash gabungan dari header, payload dan sebuah secret key. Algoritma hash yang digunakan mengikuti dari apa yang sudah ditentukan di dalam header. Signature digunakan untuk memverifikasi bahwa header maupun payload yang ada dalam token tidak berubah dari nilai aslinya.
-
-## Membuat Authentication dan Authorization

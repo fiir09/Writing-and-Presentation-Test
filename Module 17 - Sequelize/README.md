@@ -8,6 +8,36 @@ ORM atau Object Relational Mapping adalah suatu teknik atau metode pemrograman y
 
 ## Installation Sequelize
 
+### Install Sequelize-cli
+
+Agar dapat menjalankan generator menggunakan terminal, maka kita perlu menginstall sequelize cli terlebih dahulu. Untuk menginstall sequlize cli dapat dilakukan dengan menggunakan perintah berikut:
+
+```
+npm install -g sequelize-cli
+```
+
+![sequlize-cli](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2017%20-%20Sequelize/sequelize-cli.png)
+
+### Install Sequelize
+
+Ketika kita melakukan inisiasi project, pertama kita perlu menginstall sequelize menggunakan npm install sequelize. Selain itu, kita juga perlu menginstall driver sql yang dibutuhkan. 
+
+Untuk menginstall npm, kita dapat menggunakan perintah berikut ini:
+
+```
+npm install --save sequelize
+```
+
+![]()
+
+Untuk menginstall driver database, kita dapat menggunakan perintah berikut ini:
+
+```
+npm install --save mysql
+```
+
+![]()
+
 ## Membuat CRUD Dengan Express dan Sequelize
 
 

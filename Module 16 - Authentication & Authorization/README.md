@@ -38,3 +38,7 @@ Sebelum client dapat menikmati layanan server, client tersebut harus melalui pro
 ![hub auth](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2016%20-%20Authentication%20%26%20Authorization/hub%20auth.png)
 
 ## Encryption
+
+Encryption adalah proses untuk membuat suatu susunan acak dari text yang dapat dibaca manusia (human-readable plaintext) menjadi text yang tidak dapat dibaca manusia dan hanya dimengerti oleh system saja. Text hasil proses encryption disebut dengan ciphertext.
+
+Encryption sering digunakan untuk mengamankan data yang berupa informasi atau pesan, hal tersebut bertujuan untuk menjaga keamanan dan mencegah pihak tidak bertanggung jawab mengetahui isi dari pesan yang dikirimkan. Saat pihak ketiga yang tidak bertanggung jawab berusaha untuk membaca pesan tersebut, maka yang terbaca hanyalah teks acak yang tidak dapat dimengerti.

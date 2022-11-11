@@ -38,6 +38,9 @@ npm install --save mysql
 
 ![sequelize mysql](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2017%20-%20Sequelize/sequelize%20mysql.png)
 
+
+## Generate Sequelize
+
 ## Membuat CRUD Dengan Express dan Sequelize
 
 

@@ -47,6 +47,8 @@ Encryption sering digunakan untuk mengamankan data yang berupa informasi atau pe
 
 Meskipun proses encryption akan mengubah pesan yang dikirimkan menjadi text acak, namun pesan tersebut tetap dapat dibaca oleh penerima pesan yang dimaksudkan. Hal tersebut dikarenakan sebelum pesan tersampaikan kepada penerima pesan, ciphertext akan melewati proses decrypt terlebih dahulu. Proses decrypt merupakan proses yang mengubah text acak atau ciphertext menjadi text biasa atau plain text. Proses decrypt tersebut hanya akan terjadi jika seseorang memiliki akses atau diberi akses untuk melihat data yang dienskripsi.
 
+![encryption](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2016%20-%20Authentication%20%26%20Authorization/encryption.png)
+
 ### Jenis-jenis Encryption 
 
 Encryption terbagi menjadi 2 jenis, yaitu Symmetric Encryption dan Asymmetric Encryption.
@@ -60,3 +62,13 @@ Encryption terbagi menjadi 2 jenis, yaitu Symmetric Encryption dan Asymmetric En
   Asymmetric Encryption atau yang dapat juga disebut dengan public key encryption merupakan encryption yang menggunakan 2 buah key yang berbeda tetapi saling berhubungan. Key tersebut biasanya disebut dengan public key dan private key.
   
   Public key memiliki peran untuk melakukan encryption, sedangkan private key memiliki peran untuk melakukan proses deskripsi. Kedua key tersebut dibuat secara berpasangan. Pengirim dan penerima informasi sama-sama menyimpan sebuah private key di aplikasi mereka masing-masing.
+
+## Session & Cookie
+
+### Session
+
+Situs web terdiri dari beberapa halaman. Misal ketika user memasukkan informasi ke dalam formulir dimana informasi tersebut akan berpindah dari satu halaman ke halaman lainnya. Dalam situasi tersebut, session dapat digunakan untuk menyimpan dan meneruskan informasi dari satu halaman ke halaman yang lain untuk sementara. Session dipertahankan sampai pengguna menutup situs web.
+
+Dengan kata lain, session mengacu pada serangkaian interaksi user selama jangka waktu tertentu dimana data session disimpan di sisi server dan dikaitkan dengan session ID.
+
+### Cookie

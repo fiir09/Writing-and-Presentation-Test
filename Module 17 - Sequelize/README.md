@@ -6,5 +6,8 @@ Sequelize adalah ORM (Object Relational Mapping) Node JS yang berbasis promise. 
 
 ORM atau Object Relational Mapping adalah suatu teknik atau metode pemrograman yang digunakan untuk mengkonversi data dari lingkungan bahasa pemrograman berorientasi object (OOP) dengan lingkungan database relational.
 
+## Installation Sequelize
+
+## Membuat CRUD Dengan Express dan Sequelize
 
 

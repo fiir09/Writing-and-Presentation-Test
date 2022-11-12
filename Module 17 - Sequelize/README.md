@@ -83,6 +83,8 @@ Seed adalah data awal yang dapat digunakan untuk mengisi data di database untuk 
 npx sequelize-cli seed:generate --name demo-todo
 ```
 
+![generate seed1](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2017%20-%20Sequelize/generate%20seed1.png)
+
 Kemudian kita dapat menjalankan generate seed menggunakan sequelize dengan perintah berikut:
 
 ```

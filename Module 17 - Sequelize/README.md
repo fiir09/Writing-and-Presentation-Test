@@ -41,6 +41,71 @@ npm install --save mysql
 
 ## Generate Sequelize
 
+### Sequelize init
+
+Sebelum melakukan generate code, pertama kita perlu melakukan inisialisasi di project kita terlebih dahulu. Untuk melakukan inisialisasi, kita dapat menggunakan perintah berikut:
+
+```
+npx sequelize-cli init
+```
+
+![sequelize init](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2017%20-%20Sequelize/sequelize%20init.png)
+
+### Setting database
+
+### Generate Model
+
+Pada tahap ini, kita dapat membuat table todo dengan field seperti berikut:
+
+```
+npx sequelize-cli model:generate --name Todo --attributes title:string,description:string,startTime:date,status:string 
+```
+
+![generate model1](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2017%20-%20Sequelize/generate%20model1.png)
+
+Kemudian kita dapat mengecek ke database sehingga dapat kita gunakan untuk penimpanan DB
+
+```
+npx sequelize-cli db:migrate
+```
+
+Jika terdapat kesalahan, kita dapat mengembalikan (undo) dengan menggunakan perintah berikut:
+
+```
+npx sequelize-cli db:migrate:undo
+```
+
+### Generate Seed
+
+Seed adalah data awal yang dapat digunakan untuk mengisi data di database untuk keperluan awal project menggunakan sequelize. Untuk melakukannya, kita dapat menggunakan perintah berikut ini:
+
+```
+npx sequelize-cli seed:generate --name demo-todo
+```
+
+Kemudian kita dapat menjalankan generate seed menggunakan sequelize dengan perintah berikut:
+
+```
+npx sequelize-cli db:seed:all
+```
+
+Jika terdapat kesalahan, maka kita dapat mengembalikan (undo) dengan menggunakan perintah ini:
+
+```
+npx sequelize-cli db:seed:undo
+```
+
 ## Membuat CRUD Dengan Express dan Sequelize
+
+### Get All Todo
+
+### Get Todo Detail By Id
+
+### Create New Todo
+
+### Update Todo By Id
+
+### Delete Todo By Id
+
 
 

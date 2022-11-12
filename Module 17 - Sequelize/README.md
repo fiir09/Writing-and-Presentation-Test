@@ -99,15 +99,94 @@ npx sequelize-cli db:seed:undo
 
 ## Membuat CRUD Dengan Express dan Sequelize
 
+Setelah model tersedia, maka kita dapat menggunakan model tersebut untuk membuat CRUD.
+
 ### Get All Todo
+
+Untuk membuat sebuah routing entuk get all todo, maka kita dapat menggunakan syntax berikut:
+
+```
+const TodoModel = require('./models').Todo;
+
+app.get('/todos', async function (req, res) {
+  try {
+    const todos = await TodoModel.findAll();
+    
+    res.status(200).json(todos);
+  } catch (error) {
+      res.status(500).json({
+        message: error.message || 'internal server error',
+      });
+    }
+});
+```
 
 ### Get Todo Detail By Id
 
+Untuk membuat sebuah routing entuk get detail todo berdasarkan ID todo, maka kita dapat menggunakan syntax berikut:
+
+```
+const TodoModel = require('./models').Todo;
+
+app.get('/todos/:todoId', async function (req, res) {
+  try {
+    const { todoId } = req.params;
+    const todo = await TodoModel.findOne({ id: Number(todoId) });
+    
+    res.status(200).json(todo);
+  } catch (error) {
+    res.status(500).json({
+      message: error.message || 'internal server error',
+    });
+    }
+});
+```
+
 ### Create New Todo
+
+Untuk membuat sebuah routing entuk create new todo, kita dapat menggunakan syntax berikut:
+
+```
+const TodoModel = require('./models').Todo;
+
+app.post('/todos', async function (req, res) {
+  try {
+    const { title, description, startTime } = req.body;
+    
+    const newTodoData = {
+      title: title,
+      description: description, 
+      startTime: startTime,
+      status: 'false',
+    };
+    
+    const newTodo = await TodoModel.create(newTodoData);
+    
+    res.status(201).json({
+      message: 'new todo created',
+      todo: newTodo,
+    });
+  } catch (error) {
+      res.status(500).json({
+        message: error.message || 'internal server error',
+      });
+    }
+});
+```
 
 ### Update Todo By Id
 
+Untuk membuat sebuah routing entuk update todo by ID, kita dapat menggunakan syntax berikut:
+
+```
+const TodoModel = require('./models').Todo;
+
+
+```
+
 ### Delete Todo By Id
+
+Untuk membuat sebuah routing entuk delete todo by Id, kita dapat menggunakan syntax berikut:
 
 
 

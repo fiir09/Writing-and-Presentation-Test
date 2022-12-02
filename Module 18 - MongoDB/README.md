@@ -27,18 +27,36 @@ Selain memiliki kelebihan, mongoDB juga memiliki kekurangan. Berikut adalah bebe
 ## Komponen dari Database MongoDB
 Berikut adalah gambaran anatomi komponen dari database mongoDB
 
-![komponen mongoDB]()
+![komponen mongoDB](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2018%20-%20MongoDB/komponen%20mongodb.png)
 
 Database mongoDB terdiri dari  komponen, yaitu database, collection, dan document.
 
 - ### Database
 
-Database adalah wadah atau tempat untuk menyimpan berbagai macam collection.
+  Database adalah wadah atau tempat untuk menyimpan berbagai macam collection.
 
 - ### Collection
 
-Collection adalah tempat kumpulan dari berbagai macam document. Collection sering disamakan dengan table pada SQL.
+  Collection adalah tempat kumpulan dari berbagai macam document. Collection sering disamakan dengan table pada SQL.
 
 - ### Document
 
-Document merupakan unit terkecil yang berada pada mongoDB.
+  Document merupakan unit terkecil yang berada pada mongoDB.
+
+## Operasi CRUD MongoDB
+
+## Mendesain Schema MongoDB
+Dalam mendesain mongoDB, terdapat 2 pendekatan yang dapat digunakan, yaitu Embedding dan Referencing.
+
+### Embedding
+
+Dengan menggunakan pendekatan Embedding, kita memasukkan semua data yang terkait dalam satu document. Misal kita mendapatkan detail user dengan 2 document yang berbeda, yaitu personal_details dan contact seperti yang terlihat pada gambar berikut:
+
+![embedding](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2018%20-%20MongoDB/embedded.png)
+
+### Referencing
+
+Dengan pendekatan Referencing, kita tidak memasukkan keseluruhan data, tetapi hanya sebagian saja. Misal kita ingin mendapatkan riwayat_lagu, maka kita hanya perlu memberikan ObjectID nya saja seperti yang terlihat pada contoh di bawah ini.
+
+![referencing](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2018%20-%20MongoDB/referencing.png)
+

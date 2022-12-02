@@ -17,7 +17,7 @@ Karena VM memakan lebih banyak resource dan waktu untuk booting karena melakukan
 
 ![docker fundamental](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2020%20-%20Docker/docker%20fundamental.png)
 
-- ### Docker File merupakan blueprint untuk membuat image
-- ### Image merupakan template untuk menjalankan container
-- ### Container merupakan perwujudan dari image
-- ### Docker Registry merupakan tempat untuk upload atau download image
+- **Docker File** merupakan blueprint untuk membuat image
+- **Image** merupakan template untuk menjalankan container
+- **Container** merupakan perwujudan dari image
+- **Docker Registry** merupakan tempat untuk upload atau download image

@@ -44,6 +44,31 @@ Database mongoDB terdiri dari  komponen, yaitu database, collection, dan documen
   Document merupakan unit terkecil yang berada pada mongoDB.
 
 ## Operasi CRUD MongoDB
+Sebelum memulai operasi CRUD, kita dapat mengaktifkan mongoDB terlebih dahulu kemudian kita mengaksesnya dengan mengetikan `mongo` pada terminal.
+
+Secara default, database memiliki setelah test. Untuk melihat database yang aktif, kita dapat menggunakan `db` pada MongoDB Shell.
+
+Untuk melihat daftar database, kita dapat menggunakan `show dbs`.
+
+Untuk database baru, kita menggunakan `use nama_database`.
+
+**Create**
+
+Untuk menambahkan collection baru, kita dapat menggunakan `db.createCollections(“nama”)`.
+
+Untuk menambahkan data pada collection, kita dapat menggunakan `db.namaCollection.insert({data yang ditambahkan})`.
+
+**Read**
+
+Untuk melihat data, kita dapat menggunakan `db.namaCollection.find()`.
+
+**Update**
+
+Untuk mengupdate data pada collection, dapat menggunakan `db.namaCollection.update({data yang diupdate})`.
+
+**Delete**
+
+Untuk menghapus data pada collection, menggunakan `db.namaCollection.remove({data yang dihapus})`.
 
 ## Mendesain Schema MongoDB
 Dalam mendesain mongoDB, terdapat 2 pendekatan yang dapat digunakan, yaitu Embedding dan Referencing.

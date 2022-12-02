@@ -30,4 +30,21 @@ Berikut adalah beberapa perintah dasar yang digunakan dalam docker:
 - `docker images` digunakan untuk melihat kumpulan image yang telah terdownload
 - `docker run` digunakan untuk menjalankan container
 - `docker ps` digunakan untuk melihat container yang berjalan
-- 
+
+## Docker File
+Docker file merupakan sebuah blueprint untuk membuat image. Docker file juga dapat digunakan untuk membuat custom image. Untuk membuat custom image, caranya adalah sebagai berikut:
+
+1. Buat file Dockerfile di dalam project yang dibuat
+2. Tulis beberapa perintah ke dalam docker file
+3. Jalankan docker file dengan menggunakan perintah berikut:
+
+   `docker build -t NAMA_IMAGES:TAG`
+   
+   `docker build -t my-app:1.0`
+ 
+## Docker Compose
+Untuk menjalankan lebih dari 1 container secara bersamaan dan saling terhubung, kita dapat menggunakan `docker compose`. Caranya adalah sebagai berikut:
+
+1. Buat file `NAMA_FILE.yaml` di dalam project yang dibuat
+2. Tulis beberapa perintah di dalam file yang telah dibuat
+3. Jalankan menggunakan perintah `docker-compose NAMA_FILE.yaml up`

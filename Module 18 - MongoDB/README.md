@@ -54,9 +54,13 @@ Dengan menggunakan pendekatan Embedding, kita memasukkan semua data yang terkait
 
 ![embedding](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2018%20-%20MongoDB/embedded.png)
 
+Pendekatan embedding disarankan digunakan untuk One-to-One Relationships.
+
 ### Referencing
 
 Dengan pendekatan Referencing, kita tidak memasukkan keseluruhan data, tetapi hanya sebagian saja. Misal kita ingin mendapatkan riwayat_lagu, maka kita hanya perlu memberikan ObjectID nya saja seperti yang terlihat pada contoh di bawah ini.
 
 ![referencing](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2018%20-%20MongoDB/referencing.png)
+
+Pendekatan referencing disarankan digunakan untuk One-to-Many Relationships dan Many-to-Many Relationships.
 

@@ -52,23 +52,23 @@ Untuk melihat daftar database, kita dapat menggunakan `show dbs`.
 
 Untuk database baru, kita menggunakan `use nama_database`.
 
-**Create**
+- **Create**
 
-Untuk menambahkan collection baru, kita dapat menggunakan `db.createCollections(“nama”)`.
+  Untuk menambahkan collection baru, kita dapat menggunakan `db.createCollections(“nama”)`.
 
-Untuk menambahkan data pada collection, kita dapat menggunakan `db.namaCollection.insert({data yang ditambahkan})`.
+  Untuk menambahkan data pada collection, kita dapat menggunakan `db.namaCollection.insert({data yang ditambahkan})`.
 
-**Read**
+- **Read**
 
-Untuk melihat data, kita dapat menggunakan `db.namaCollection.find()`.
+  Untuk melihat data, kita dapat menggunakan `db.namaCollection.find()`.
 
-**Update**
+- **Update**
 
-Untuk mengupdate data pada collection, dapat menggunakan `db.namaCollection.update({data yang diupdate})`.
+  Untuk mengupdate data pada collection, dapat menggunakan `db.namaCollection.update({data yang diupdate})`.
 
-**Delete**
+- **Delete**
 
-Untuk menghapus data pada collection, menggunakan `db.namaCollection.remove({data yang dihapus})`.
+  Untuk menghapus data pada collection, menggunakan `db.namaCollection.remove({data yang dihapus})`.
 
 ## Mendesain Schema MongoDB
 Dalam mendesain mongoDB, terdapat 2 pendekatan yang dapat digunakan, yaitu Embedding dan Referencing.

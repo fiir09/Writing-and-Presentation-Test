@@ -21,3 +21,13 @@ Karena VM memakan lebih banyak resource dan waktu untuk booting karena melakukan
 - **Image** merupakan template untuk menjalankan container
 - **Container** merupakan perwujudan dari image
 - **Docker Registry** merupakan tempat untuk upload atau download image
+
+## Perintah Dasar Docker
+
+Berikut adalah beberapa perintah dasar yang digunakan dalam docker:
+
+- `docker pull` digunakan untuk men-download image dari docker hub
+- `docker images` digunakan untuk melihat kumpulan image yang telah terdownload
+- `docker run` digunakan untuk menjalankan container
+- `docker ps` digunakan untuk melihat container yang berjalan
+- 

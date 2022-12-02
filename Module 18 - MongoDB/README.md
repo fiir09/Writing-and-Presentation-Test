@@ -79,7 +79,7 @@ Dengan menggunakan pendekatan Embedding, kita memasukkan semua data yang terkait
 
 ![embedding](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2018%20-%20MongoDB/embedded.png)
 
-Pendekatan embedding disarankan digunakan untuk One-to-One Relationships.
+Pendekatan embedding disarankan digunakan untuk One-to-One Relationships. One-to-One Relationships mewakili hubungan 2 object yang berbeda. Contoh dari One-to-One Relationships adalah hubungan antara user dan detail membership sebuah music streaming. Detail membership masing masing user tidak akan pernah menjadi milik banyak user dan tidak ada user yang memiliki lebih dari 1 detail membership.
 
 ### Referencing
 
@@ -88,4 +88,12 @@ Dengan pendekatan Referencing, kita tidak memasukkan keseluruhan data, tetapi ha
 ![referencing](https://github.com/fiir09/Writing-and-Presentation-Test/blob/main/Module%2018%20-%20MongoDB/referencing.png)
 
 Pendekatan referencing disarankan digunakan untuk One-to-Many Relationships dan Many-to-Many Relationships.
+
+- **One-to-Many Relationships**
+
+  Contoh dari One-to-Many Relationships adalah misal kita sedang menggunakan sebuah aplikasi music streaming. Pada aplikasi tersebut, satu lagu yang sama dapat diputar oleh banyak user. Oleh karena itu, hubungan antara lagu dan user tersebut merupakan One-to-Many Relationships.
+
+- **Many-to-Many Relationships**
+
+  Dalah sebuah aplikasi music streaming, seorang user dapat memiliki playlist lagu dimana playlist tersebut dapat didengarkan juga oleh banyak user yang lainnya. Kemudian, setiap user juga dapat memiliki lebih dari satu playlist. Maka dari itu, hubungan antara user dan playlist tersebut merupakan Many-to-Many Relationships.
 
